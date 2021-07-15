@@ -1,4 +1,4 @@
-# Blazor-WASM 인증
+# Blazor-WASM Authentication
 *WASM은 WebAssembly의 줄임말입니다.*
 
 ## Client Side
