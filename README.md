@@ -1,6 +1,7 @@
 # Blazor-WASM Authentication
 블레이저 웹어셈블리를 통한 인증 방법을 심도 있게 분석하고 제대로 활용하기 위한 Repository입니다.
 
+프로젝트를 생성할 때 기본적인 모든 요소들이 Visual Studio를 통해 자동적으로 생성되지만 각각의 프로젝트 역할과 어셈블리, 설정들을 정확하게 인지하고 사용하는 것이 중요합니다.
 ## Client Side
 - Microsoft.AspNetCore.Components.WebAssembly
 - Microsoft.AspNetCore.Components.WebAssembly.DevServer
