@@ -1,5 +1,5 @@
 # Blazor-WASM Authentication
-*WASM은 WebAssembly의 줄임말입니다.*
+블레이저 웹어셈블리를 통한 인증 방식을 심도 있게 분석하고 이해하기 위한 Repository입니다.
 
 ## Client Side
 - Microsoft.AspNetCore.Components.WebAssembly
