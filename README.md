@@ -24,6 +24,12 @@
 
 ![image](https://user-images.githubusercontent.com/74305823/125865489-536f9886-1998-4600-9afa-d1596beda955.png)
 
+## What is Scaffolding?
+- Identity modules
+
+## EntityFrameworkCore
+- DbConnection
+  > `Data Source=.;Initial Catalog=blazor-db;User Id=sa;Password=!@#$1234`
 
 # Blazor to Google
 # Blazor to GitHub
