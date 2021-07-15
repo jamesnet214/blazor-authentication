@@ -1,4 +1,5 @@
-# blazor-wasm-authentication
+# Blazor-WASM 인증
+```WASM은 WebAssembly의 줄임말입니다.```
 
 ## Client Side
 - Microsoft.AspNetCore.Components.WebAssembly
