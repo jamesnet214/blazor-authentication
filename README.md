@@ -26,11 +26,13 @@
 - Microsoft.EntityFrameworkCore.SqlServer
 - Microsoft.EntityFrameworkCore.Tools
 
-기본적으로 셋팅되어있는 어셈블리 항목들을 살펴보면 블레이저 인증 구조가 어떻게 제공되고 있는지도 짐작할 수 있습니다.
+기본적으로 셋팅되어있는 어셈블리 항목들을 살펴보면 블레이저 인증 구조가 어떻게 제공되고 있는지 파악하기에 큰 도움이 됩니다.
 
 ### 엔터티프레임워크
 기본적으로 제공하는 인증 구조에는 EntityFramework가 반드시 필요합니다. 필요에 따라 MS-SQL, SQLite, Oracle 등 다양한 데이터베이스를 구성할 수 있으며 EntityFramework 기술을 통해 필요한 데이터베이스 마이그레이션까지 제공되고 있습니다.
 
+### 데이터베이스 연결
+인증을 정확하게 구현하기 위해서는 데이터베이스 마이그레이션이 필수이므로 반드시 DbConnection을 설정해주어야 합니다.
 ## Project
 
 ![image](https://user-images.githubusercontent.com/74305823/125865426-09aaa9ab-17f7-4dd3-a86b-ae748ae5ae27.png)
