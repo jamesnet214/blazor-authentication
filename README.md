@@ -1,5 +1,5 @@
 # Blazor-WASM Authentication
-`Blazor WebAssembly`를 통한 인증 방법을 심도 있게 분석하고 제대로 활용하기 위한 Repository입니다.
+Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대로 활용하기 위한 Repository입니다.
 
 ## OrverView
 프로젝트를 생성할 때 기본적인 모든 요소들이 Visual Studio를 통해 자동으로 생성되므로 빠르고 쉽게 웹앱을 구현하는 것은 가능하지만 프로젝트 역할과 구조, 그리고 어셈블리, 설정들을 정확하게 인지하고 사용하기에는 어려움이 있습니다. 또한 원하지 않는 불필요한 구조나 소스코드, 데이터베이스가 남게 됩니다.
