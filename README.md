@@ -10,6 +10,8 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 ## 어셈블리
 인증시스템을 구현하기 위해 필요한 **최소한**의 **어셈블리**를 살펴보겠습니다.
 
+(Hosted 기준)
+
 ### 클라이언트
 - Microsoft.AspNetCore.Components.WebAssembly
 - Microsoft.AspNetCore.Components.WebAssembly.DevServer
@@ -33,6 +35,31 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 
 ### 데이터베이스 연결
 인증을 정확하게 구현하기 위해서는 데이터베이스 마이그레이션이 필수이므로 반드시 DbConnection을 설정해주어야 합니다.
+
+### 서버 appsettings.json
+```json
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=.;Initial Catalog=blazor-db;User Id=sa;Password=!@#$1234"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "IdentityServer": {
+    "Clients": {
+      "DevNcoreWasm.Client": {
+        "Profile": "IdentityServerSPA"
+      }
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+```
 ## Project
 
 ![image](https://user-images.githubusercontent.com/74305823/125865426-09aaa9ab-17f7-4dd3-a86b-ae748ae5ae27.png)
@@ -48,7 +75,9 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 
 ## 엔터티프레임워크 연결
 - DbConnection
-  > `Data Source=.;Initial Catalog=blazor-db;User Id=sa;Password=!@#$1234`
+  ```
+  Data Source=.;Initial Catalog=blazor-db;User Id=sa;Password=!@#$1234
+  ```
 
 ## 테이블 마이그레이션
 - 데이터테이블 마이그레이션입니다.
