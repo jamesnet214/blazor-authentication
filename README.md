@@ -44,6 +44,18 @@ Blazor Indivisual 모드는 Authentication 인증 관련 데이터베이스 마�
 ***마이그레이션이란?***
 > 기능에 필요한 데이터베이스를 해당 Blazor 설치 버전에 맞게 자동으로 생성 또는 변경합니다. Authentication 관련 인증 처리는 데이터베이스가 필수로 필요하기 때문에 반드시 데이터베이스가 먼저 준비되어있어야 합니다.
 
+|| 테이블명|설명|
+|:---:|:-----|:---|
+|1|__EFMigrationsHistory| |
+|2|AspNetRoleClaims| |
+|3|AspNetRoles| |
+|4|AspNetUserClaims| |
+|5|AspNetUserLogins| |
+|6|AspNetUserRoles| |
+|7|AspNetUsers| |
+|8|AspNetUserTokens| |
+|9|DeviceCodes| |
+|10|PersistedGrants| |
 
 
 ### 엔터티프레임워크
