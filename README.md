@@ -8,7 +8,8 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 
 **대표적인 인증**
 - 구글
-![image](https://user-images.githubusercontent.com/52397976/125898615-828c5e0b-fd64-4197-993b-c9ec4f2feadc.png)
+<img src="https://user-images.githubusercontent.com/52397976/125898615-828c5e0b-fd64-4197-993b-c9ec4f2feadc.png" width="200" height="200"></img>
+
 
 
 ## Hosted
