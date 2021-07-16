@@ -38,10 +38,9 @@ TBD...
 ### 연결정보
 인증을 정확하게 구현하기 위해서는 데이터베이스 마이그레이션이 필수이므로 반드시 DbConnection을 설정해주어야 합니다.
 
-**데이터베이스 연결정보 추가**
+#### 1. 데이터베이스 연결정보 추가
 
 EntityFrameworkCore 연결에 사용될 DB 커넥션 정보를 입력합니다.
-
 파일 위치: **Server -> appsettings.json**
 
 ```json
@@ -51,7 +50,7 @@ EntityFrameworkCore 연결에 사용될 DB 커넥션 정보를 입력합니다.
 
 ```
 
-**구글 OAuth 연동정보 추가**
+#### 2. 구글 OAuth 연동정보 추가
 ```csharp
 services.AddAuthentication()
     .AddIdentityServerJwt()
