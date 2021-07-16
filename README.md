@@ -71,6 +71,9 @@ Blazor Indivisual 모드는 Authentication 인증 관련 데이터베이스 마�
 
 (_.NET6.0 기준_)
 
+![image](https://user-images.githubusercontent.com/52397976/125908364-1d1704ab-f36c-4578-907f-5b6b68412ca0.png)
+
+
 
 ### 엔터티프레임워크
 기본적으로 제공하는 인증 구조에는 EntityFramework가 반드시 필요합니다. 필요에 따라 MS-SQL, SQLite, Oracle 등 다양한 데이터베이스를 구성할 수 있으며 EntityFramework 기술을 통해 필요한 데이터베이스 마이그레이션까지 제공되고 있습니다.
