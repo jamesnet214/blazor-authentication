@@ -37,7 +37,7 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 인증을 정확하게 구현하기 위해서는 데이터베이스 마이그레이션이 필수이므로 반드시 DbConnection을 설정해주어야 합니다.
 
 ### 서버 appsettings.json
-```josn
+```json
 {
   "ConnectionStrings": {
     "DefaultConnection": "Data Source=.;Initial Catalog=blazor-db;User Id=sa;Password=!@#$1234"
