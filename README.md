@@ -51,7 +51,7 @@ EntityFrameworkCore 연결에 사용될 DB 커넥션 정보를 입력합니다.
 ```
 
 #### 2. 구글 OAuth 연동정보 추가
-먼저 [구글 API](https://console.cloud.google.com) 센터를 통한 사용자 인증키 발급이 필요합니다. 구글에서 제공하는 인증 서비스는 무료입니다.
+먼저 [구글 API](https://console.cloud.google.com) 센터를 통한 사용자 인증키 발급이 필요합니다. 자세한 방법은 하단에서 더 자세하게 설명하고 있습니다. [확인](www.google.com)
 ```csharp
 services.AddAuthentication()
     .AddIdentityServerJwt()
