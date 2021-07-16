@@ -21,7 +21,7 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 
 - Visual Studio for Windows
 - Visual Studio for Mac
-- Visual Studio Code
+- Visual Studio Code Anywhere
 
 
 ## Hosted
