@@ -6,6 +6,12 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 
 **그래서** 우리는 블레이저 웹어셈블리 구조에서 제공하는 인증 관련 시스템을 더 세부적으로 다루고 설명할 것입니다.
 
+**대표적인 인증**
+- 구글
+  
+  ![image](https://user-images.githubusercontent.com/52397976/125898528-b11c5e9f-9c21-4624-930c-d0e37d634075.png)
+
+
 ## Hosted
 
 TBD...
