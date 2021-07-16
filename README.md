@@ -72,7 +72,8 @@ Blazor Indivisual 모드는 Authentication 인증 관련 데이터베이스 마�
 (_.NET6.0 기준_)
 
 ## 데이터베이스 인증  관계도
-Individual Accounts 모드를 통해 생성된 데이터베이스 (인증) 구조 관계도입니다.
+Individual Accounts 모드를 통해 생성된 데이터베이스 테이블 다이어그램입니다.
+
 ![image](https://user-images.githubusercontent.com/52397976/125908580-649f26f2-7e29-472d-9299-ae030586312d.png)
 
 
