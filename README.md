@@ -55,7 +55,7 @@ EntityFrameworkCore는 다양한 데이터베이스를 지원합니다. (MS-SQL,
 |:---|:----|
 |MS-SQL|Microsoft.EntityFrameworkCore.SqlServer|
 |SQLite|Microsoft.EntityFrameworkCore.SQLite|
-|[Oracle](Oracle)|Oracle.EntityFrameworkCore|
+|[Oracle](https://www.nuget.org/packages/Oracle.EntityFrameworkCore/5.21.1/ReportAbuse)|Oracle.EntityFrameworkCore|
 |[MySql](https://www.nuget.org/packages/MySql.Data.EntityFrameworkCore/8.0.22/ReportAbuse)|MySql.Data.EntityFrameworkCore|
 |Cosmos|Microsoft.EntityFrameworkCore.Cosmos|
 
