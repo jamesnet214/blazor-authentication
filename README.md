@@ -3,6 +3,7 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 
 ## Contents
 - [Overview](#overview)
+- [개발환경](#개발환경)
 - [Hosted](#hosted)
 - [어셈블리](#어셈블리)
 - [클라이언트](#클라이언트)
@@ -18,9 +19,9 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 
 ## 개발환경
 
-1. Visual Studio for Windows
-2. Visual Studio for Mac
-2. Visual Studio Code for Anywhere
+- Visual Studio for Windows
+- Visual Studio for Mac
+- Visual Studio Code
 
 
 ## Hosted
