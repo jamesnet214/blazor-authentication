@@ -46,11 +46,11 @@ Blazor Indivisual 모드는 Authentication 인증 관련 데이터베이스 마�
 
 || 테이블명|설명|
 |:---:|:-----|:---|
-|1|__EFMigrationsHistory| |
+|1|__EFMigrationsHistory| 마이그레이션 히스토리 테이블 |
 |2|AspNetRoleClaims| |
 |3|AspNetRoles| |
 |4|AspNetUserClaims| |
-|5|AspNetUserLogins| |
+|5|AspNetUserLogins| 인증 제공자(예, 구글) 정보 |
 |6|AspNetUserRoles| |
 |7|AspNetUsers| |
 |8|AspNetUserTokens| |
