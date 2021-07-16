@@ -50,13 +50,14 @@ EntityFrameworkCore 연결에 사용될 DB 커넥션 정보를 입력합니다.
 ```
 EntityFrameworkCore는 다양한 데이터베이스를 지원합니다. (MS-SQL, SQLite, MySql, Oracle 등) 예제는 MS-SQL을 사용하지만 여러분은 DB 선택에 맞게 추가적으로 NugetPackage를 설치하시기 바랍니다.
 
-**다양한 데이터베이스를 지원하는 EntityFrameworkCore**
-
-- Microsoft.EntityFrameworkCore.SqlServer
-- Microsoft.EntityFrameworkCore.SQLite
-- Microsoft.EntityFrameworkCore.Oracle
-- Microsoft.EntityFrameworkCore.MySql
-
+엔터티에서 지원하는 DB 목록
+|DB|Assembly(NugetPackage)|
+|:---|:----|
+|MS-SQL|Microsoft.EntityFrameworkCore.SqlServer|
+|SQLite|Microsoft.EntityFrameworkCore.SQLite|
+|Oracle|Microsoft.EntityFrameworkCore.Oracle|
+|MySql|Microsoft.EntityFrameworkCore.MySql|
+|PostgreSQL|Npgsql.EntityFrameworkCore.PostgreSQL|
 
 
 #### 2. 구글 OAuth 연동정보 추가
