@@ -47,12 +47,12 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 **구글 OAuth 연동정보 추가**
 ```csharp
 services.AddAuthentication()
-	.AddIdentityServerJwt()
-	.AddGoogle(o =>
-	{
-		o.ClientId = Configuration["Authentication:Google:ClientId"];
-		o.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
-	});
+    .AddIdentityServerJwt()
+    .AddGoogle(o =>
+    {
+	o.ClientId = Configuration["Authentication:Google:ClientId"];
+	o.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
+    });
 ```
 
 ## Project
