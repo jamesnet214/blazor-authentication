@@ -57,8 +57,10 @@ EntityFrameworkCore는 다양한 데이터베이스를 지원합니다. (MS-SQL,
 - Microsoft.EntityFrameworkCore.Oracle
 - Microsoft.EntityFrameworkCore.MySql
 
+
+
 #### 2. 구글 OAuth 연동정보 추가
-먼저 [구글 API](https://console.cloud.google.com) 센터를 통한 사용자 인증키 발급이 필요합니다. 자세한 방법은 하단에서 더 자세하게 설명하고 있습니다. [확인](www.google.com)
+구글은 OAuth2.0 표준 사용자 인증 방식으로 제공하고 있습니다. [구글 API](https://console.cloud.google.com) 자세한 방법은 하단을 참조바랍니다.
 ```csharp
 services.AddAuthentication()
     .AddIdentityServerJwt()
@@ -68,6 +70,7 @@ services.AddAuthentication()
 	o.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
     });
 ```
+
 
 ## Project
 
