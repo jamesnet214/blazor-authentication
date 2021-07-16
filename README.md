@@ -71,6 +71,8 @@ Blazor Indivisual 모드는 Authentication 인증 관련 데이터베이스 마�
 
 (_.NET6.0 기준_)
 
+## 데이터베이스 관계도
+
 ![image](https://user-images.githubusercontent.com/52397976/125908580-649f26f2-7e29-472d-9299-ae030586312d.png)
 
 
