@@ -51,6 +51,7 @@ EntityFrameworkCore 연결에 사용될 DB 커넥션 정보를 입력합니다.
 ```
 
 #### 2. 구글 OAuth 연동정보 추가
+구글로부터 사용자 인증을 승인 받기 위한 인증번호 발급. [구글 API](https://console.cloud.google.com)
 ```csharp
 services.AddAuthentication()
     .AddIdentityServerJwt()
