@@ -76,7 +76,8 @@ Individual Accounts 모드를 통해 생성된 데이터베이스 테이블 다�
 
 ![image](https://user-images.githubusercontent.com/52397976/125908580-649f26f2-7e29-472d-9299-ae030586312d.png)
 
-
+### 마이그레이션 시점은 언제입니까?
+Authentication 인증이 성공한 후 데이터베이스 연결 유무 및 마이그레이션 버전 정보 확인을 통해 데이터베이스 생성을 시작합니다.
 
 ### 엔터티프레임워크
 기본적으로 제공하는 인증 구조에는 EntityFramework가 반드시 필요합니다. 필요에 따라 MS-SQL, SQLite, Oracle 등 다양한 데이터베이스를 구성할 수 있으며 EntityFramework 기술을 통해 필요한 데이터베이스 마이그레이션까지 제공되고 있습니다.
