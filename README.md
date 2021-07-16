@@ -56,6 +56,7 @@ Blazor Indivisual 모드는 Authentication 인증 관련 데이터베이스 마�
 |8|AspNetUserTokens| |
 |9|DeviceCodes| |
 |10|PersistedGrants| |
+
 _.NET6.0 기준_
 
 
