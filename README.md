@@ -35,7 +35,7 @@ TBD...
 ### 엔터티프레임워크
 기본적으로 제공하는 인증 구조에는 EntityFramework가 반드시 필요합니다. 필요에 따라 MS-SQL, SQLite, Oracle 등 다양한 데이터베이스를 구성할 수 있으며 EntityFramework 기술을 통해 필요한 데이터베이스 마이그레이션까지 제공되고 있습니다.
 
-### 연결정보
+### 데이터베이스
 인증을 정확하게 구현하기 위해서는 데이터베이스 마이그레이션이 필수이므로 반드시 DbConnection을 설정해주어야 합니다.
 
 #### 1. 데이터베이스 연결정보 추가
@@ -59,6 +59,8 @@ EntityFrameworkCore는 다양한 데이터베이스를 지원합니다. (MS-SQL,
 |[MySql](https://www.nuget.org/packages/MySql.Data.EntityFrameworkCore/8.0.22/ReportAbuse)|MySql.Data.EntityFrameworkCore|
 |Cosmos|Microsoft.EntityFrameworkCore.Cosmos|
 
+## OAuth2.0 인증
+TBD...
 
 #### 2. 구글 OAuth 연동정보 추가
 구글은 OAuth2.0 표준 사용자 인증 방식으로 제공하고 있습니다. [구글 API](https://console.cloud.google.com) 자세한 방법은 하단을 참조바랍니다.
