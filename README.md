@@ -6,11 +6,13 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 
 **그래서** 우리는 블레이저 웹어셈블리 구조에서 제공하는 인증 관련 시스템을 더 세부적으로 다루고 설명할 것입니다.
 
+## Hosted
+
+TBD...
 
 ## 어셈블리
 인증시스템을 구현하기 위해 필요한 **최소한**의 **어셈블리**를 살펴보겠습니다.
 
-(Hosted 기준)
 
 ### 클라이언트
 - Microsoft.AspNetCore.Components.WebAssembly
