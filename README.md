@@ -22,7 +22,7 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 - Apple MacOS
 - Linux
 
-Blazor는 Windows OS를 기반으로 한 닷넷프레임워크 환경에서 탈피한 **닷넷코어** 기반의 **웹앱**입니다. 더이상 닷넷프레임워크에 의존하지 않고 동일한 소스코드를 사용하기 때문에 서로 다른 운영체제간 협업도 가능하며 기존 ASP.NET처럼 IIS에 의존하지 않고도 독립(Self-contained)적인 배포가 가능합니다.
+Blazor는 Windows OS를 기반으로 한 닷넷프레임워크 환경에서 탈피한 **닷넷코어** 기반의 **웹앱**입니다. 더이상 닷넷프레임워크에 의존하지 않고 모든 운영체제 환경에서 동일한 소스코드를 수 있기때문에 다른 운영체제간 협업도 가능하며 기존 ASP.NET처럼 IIS에 의존하지 않고 손쉽게 독립(Self-contained)적인 배포가 가능합니다.
 
 ## IDE
 - Visual Studio (2022 Preview)
