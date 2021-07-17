@@ -17,11 +17,26 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 
 <img src="https://user-images.githubusercontent.com/52397976/125898615-828c5e0b-fd64-4197-993b-c9ec4f2feadc.png" height="50"></img>
 
-## 개발환경
+## 운영체제 선택
+- Windows
+- Linux
+- MacOS
 
-- Visual Studio for Windows
-- Visual Studio for Mac
-- Visual Studio Code Anywhere
+Blazor는 닷넷코어 기반이기 때문에 운영체제 선택에 있어 제약이 없습니다. 어떠한 환경에서도 개발이 가능하며 독립된 닷넷코어를 손쉽게 서버에 배포할 수 있습니다. 
+
+## IDE 선택
+- Visual Studio (2022 Preview)
+- Visual Studio Code
+
+Visual Studio 뿐만 아니라 Visual Studio Code에서도 Blazor를 개발할 수 있습니다. 여러분이 익숙한 IDE를 선택하는 것이 중요합니다.
+
+# 호스팅 
+- Microsoft Azure
+- Amazon AWS
+- Server Hosting
+- 노트북 (직접)
+
+Blazor를 서비스하기 위한 가장 쉬운 방법은 클라우드 서비스를 이용하는 것입니다. 대표적인 클라우드 서비스로는 Azure와 AWS가 있습니다. Azure의 경우 무료로 웹앱을 서비스할 수 있기 때문에 개발단계에서 아주 유용하게 이용할 수 있습니다.
 
 
 ## Hosted
