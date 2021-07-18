@@ -41,7 +41,7 @@ Blazor는 Windows OS를 기반으로 한 닷넷프레임워크 환경에서 탈�
 - Visual Studio for Mac
 - Visual Studio Code
 
-Visual Studio 뿐만 아니라 Visual Studio Code에서도 Blazor를 개발할 수 있습니다. 따라서 여러분이 익숙한 IDE를 선택하는 것이 중요합니다.
+Visual Studio 뿐만 아니라 Visual Studio Code에서도 Blazor를 개발할 수 있습니다. 따라서 여러분이 익숙한 IDE를 선택하는 것이 좋습니다.
 
 <br>
 
