@@ -62,7 +62,7 @@ _Visual Studio_
 - Hosted 옵션 선택
 - Indivisual Accounts 옵션 선택
 
-_NET Core CLI_
+_Visual Studio Code / CLI_
 ```cli
 dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 ```
