@@ -20,7 +20,7 @@ Visual Studio를 통해 프로젝트를 생성할 때 기본적인 요소들이 
 
 <br>
 
-**대표적인 인증**
+🔐 **대표적인 인증**
 
 <img src="https://user-images.githubusercontent.com/52397976/125898615-828c5e0b-fd64-4197-993b-c9ec4f2feadc.png" height="50"></img>
 
@@ -31,7 +31,7 @@ Visual Studio를 통해 프로젝트를 생성할 때 기본적인 요소들이 
 - Apple MacOS
 - Linux
 
-Blazor는 Windows OS를 기반으로 한 닷넷프레임워크 환경에서 탈피한 **닷넷코어** 기반의 **웹앱**입니다. 따라서 더 이상 닷넷프레임워크에만 의존하지 않고 모든 운영체제 환경에서 동일한 소스코드를 쓸 수 있기 때문에 운영체제간 협업 역시 가능합니다. 또한 기존 ASP.NET처럼 IIS에 의존하지 않고 손쉽게 독립(Self-contained)적인 배포가 가능합니다.
+Blazor는 Windows OS를 기반으로 한 닷넷프레임워크 환경에서 탈피한 **닷넷코어** 기반의 **웹앱**입니다. 따라서 더 이상 닷넷프레임워크에만 의존하지 않고 모든 운영체제 환경에서 동일한 소스코드를 쓸 수 있기 때문에 운영체제간 협업 역시 가능합니다. 또한 기존 `ASP.NET`처럼 IIS에 의존하지 않고 손쉽게 독립(Self-contained)적인 배포가 가능합니다.
 
 <br>
 
@@ -41,14 +41,17 @@ Blazor는 Windows OS를 기반으로 한 닷넷프레임워크 환경에서 탈�
 
 Visual Studio 뿐만 아니라 Visual Studio Code에서도 Blazor를 개발할 수 있습니다. 따라서 여러분이 익숙한 IDE를 선택하는 것이 중요합니다.
 
+<br>
+
 ## 호스팅 
 - Microsoft Azure
 - Amazon AWS
 - Server Hosting
 - 노트북 (직접)
 
-Blazor를 서비스하기 위한 가장 쉬운 방법은 클라우드 서비스를 이용하는 것입니다. 대표적인 클라우드 서비스로는 Azure와 AWS가 있습니다. Azure의 경우 무료로 웹앱을 서비스할 수 있기 때문에 개발단계에서 아주 유용하게 이용할 수 있습니다.
+Blazor를 서비스하기 위한 가장 쉬운 방법은 클라우드 서비스를 이용하는 것입니다. 대표적인 클라우드 서비스로는 `Azure`와 `AWS`가 있습니다. `Azure`의 경우 무료로 웹앱을 서비스할 수 있기 때문에 개발단계에서 아주 유용하게 이용할 수 있습니다.
 
+<br>
 
 ## Hosted
 
