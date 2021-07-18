@@ -174,16 +174,6 @@ services.AddAuthentication()
 
 ## 스케폴딩이란?
 - Identity modules
-
-## 엔터티프레임워크 연결
-- DbConnection
-  ```
-  Data Source=.;Initial Catalog=blazor-db;User Id=sa;Password=!@#$1234
-  ```
-
-## 테이블 마이그레이션
-- 데이터테이블 마이그레이션입니다.
-
 # Blazor to Google
 # Blazor to GitHub
 > https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/blob/dev/samples/Mvc.Client/Startup.cs
