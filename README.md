@@ -59,8 +59,8 @@ Blazor 구조를 서버와 클라이언트 구조로 나누기 위한 옵션입�
 <br>
 
 ## 어셈블리
-인증시스템을 구현하기 위해 필요한 **최소한**의 **어셈블리**를 살펴보겠습니다.
-
+인증시스템을 구현하기 위해 필요한 **최소한**의 **어셈블리**를 살펴보겠습니다.  
+기본적으로 세팅되어있는 어셈블리 항목들을 살펴보면 Blazor의 인증 구조가 어떻게 제공되고 있는지 파악하는 것에 큰 도움이 됩니다.
 
 ### ✔️ 클라이언트
 ◻️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly  
@@ -78,7 +78,6 @@ Blazor 구조를 서버와 클라이언트 구조로 나누기 위한 옵션입�
 ◻️ &nbsp; Microsoft.EntityFrameworkCore.SqlServer  
 ◻️ &nbsp; Microsoft.EntityFrameworkCore.Tools
 
-기본적으로 셋팅되어있는 어셈블리 항목들을 살펴보면 블레이저 인증 구조가 어떻게 제공되고 있는지 파악하기에 큰 도움이 됩니다.
 
 ## 데이터베이스 마이그레이션
 Blazor Indivisual 모드는 Authentication 인증 관련 데이터베이스 마이그레이션을 지원합니니다.
