@@ -58,9 +58,9 @@ Blazor를 서비스하기 위한 가장 쉬운 방법은 클라우드 서비스�
 Blazor 프로젝트를 생성하는 방법입니다.
 
 _Visual Studio_
-- Blazor WebAssembly 생성
-- Hosted 옵션 선택
+- Blazor WebAssembly 프로젝트 선택
 - Indivisual Accounts 옵션 선택
+- Hosted 옵션 선택
 
 _Visual Studio Code / CLI_
 ```cli
