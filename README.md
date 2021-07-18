@@ -66,6 +66,7 @@ _Visual Studio Code / CLI_
 ```cli
 dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 ```
+dotnet new 명령어는 [여기](https://docs.microsoft.com/ko-kr/dotnet/core/tools/dotnet-new)에서 자세하게 설명되고 있습니다.
 <br>
 
 ## 어셈블리
