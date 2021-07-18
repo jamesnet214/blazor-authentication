@@ -7,7 +7,6 @@ Blazor WebAssembly를 통한 인증 방법을 심도 있게 분석하고 제대�
 - [개발환경](#개발환경)
 - [Hosted](#hosted)
 - [어셈블리](#어셈블리)
-- [클라이언트](#클라이언트)
 
 <br>
 
@@ -57,25 +56,27 @@ Blazor를 서비스하기 위한 가장 쉬운 방법은 클라우드 서비스�
 
 Blazor 구조를 서버와 클라이언트 구조로 나누기 위한 옵션입니다.
 
+<br>
+
 ## 어셈블리
 인증시스템을 구현하기 위해 필요한 **최소한**의 **어셈블리**를 살펴보겠습니다.
 
 
-### 클라이언트
-- Microsoft.AspNetCore.Components.WebAssembly
-- Microsoft.AspNetCore.Components.WebAssembly.DevServer
-- Microsoft.AspNetCore.Components.WebAssembly.Authentication
-- Microsoft.Extensions.Http
+### ✔️ 클라이언트
+◻️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly  
+◻️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly.DevServer  
+◻️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly.Authentication  
+◻️ &nbsp; Microsoft.Extensions.Http
 
-### 서버
-- Microsoft.AspNetCore.Authentication.Google
-- Microsoft.AspNetCore.Components.WebAssembly.Server
-- Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore
-- Microsoft.AspNetCore.Identity.EntityFrameworkCore
-- Microsoft.AspNetCore.Identity.UI
-- Microsoft.AspNetCore.ApiAuthorization.IdentityServer
-- Microsoft.EntityFrameworkCore.SqlServer
-- Microsoft.EntityFrameworkCore.Tools
+### ✔️ 서버
+◻️ &nbsp; Microsoft.AspNetCore.Authentication.Google  
+◻️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly.Server  
+◻️ &nbsp; Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore  
+◻️ &nbsp; Microsoft.AspNetCore.Identity.EntityFrameworkCore  
+◻️ &nbsp; Microsoft.AspNetCore.Identity.UI  
+◻️ &nbsp; Microsoft.AspNetCore.ApiAuthorization.IdentityServer  
+◻️ &nbsp; Microsoft.EntityFrameworkCore.SqlServer  
+◻️ &nbsp; Microsoft.EntityFrameworkCore.Tools
 
 기본적으로 셋팅되어있는 어셈블리 항목들을 살펴보면 블레이저 인증 구조가 어떻게 제공되고 있는지 파악하기에 큰 도움이 됩니다.
 
