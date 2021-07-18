@@ -56,8 +56,10 @@ Blazor를 서비스하기 위한 가장 쉬운 방법은 클라우드 서비스�
 
 ## 프로젝트 생성
 _Visual Studio_
-Blazor 구조를 서버와 클라이언트 구조로 나누기 위한 옵션입니다.
-_CLI_
+- Blazor WebAssembly 생성
+- Hosted 옵션 선택
+- Indivisual Accounts 옵션 선택
+_NET Core CLI_
 ```cli
 dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 ```
