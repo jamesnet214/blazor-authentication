@@ -65,11 +65,11 @@ _Visual Studio_
 - Indivisual Accounts 옵션 선택
 - Hosted 옵션 선택
 
-_Visual Studio Code / CLI_
+_Visual Studio Code / NET Core CLI_
 ```cli
 dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 ```
-자세한 **dotnet new** 명령어는 [여기](https://docs.microsoft.com/ko-kr/dotnet/core/tools/dotnet-new)을 통해 학습할 수 있습니다.
+자세한 **dotnet new** 명령어는 [여기](https://docs.microsoft.com/ko-kr/dotnet/core/tools/dotnet-new)를 통해 학습할 수 있습니다.
 <br>
 
 ## 어셈블리
