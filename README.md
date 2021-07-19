@@ -102,7 +102,7 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 <br>
 
 ## 데이터베이스 마이그레이션
-> **Blazor Indivisual 모드**는 Authentication 인증 관련 데이터베이스 마이그레이션을 지원합니니다.
+> **Blazor Individual 모드**는 Authentication 인증 관련 데이터베이스 마이그레이션을 지원합니니다.
 
 #### _마이그레이션이란?_
 기능에 필요한 데이터베이스를 해당 Blazor 설치 버전에 맞게 자동으로 생성 또는 변경합니다. Authentication 관련 인증 처리는 데이터베이스가 필수로 필요하기 때문에 반드시 데이터베이스가 먼저 준비되어있어야 합니다.
