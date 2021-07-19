@@ -68,7 +68,7 @@ Blazor 프로젝트를 생성하는 방법입니다.
 
 ### _Visual Studio_
 1. **Blazor WebAssembly App** 프로젝트 선택
-1. **Indivisual Accounts** 옵션 선택
+1. **Individual Accounts** 옵션 선택
 1. **ASP.NET Core Hosted** 옵션 선택
 <img src="https://user-images.githubusercontent.com/74305823/126103947-b9e35e7f-3e57-4af2-bb64-8df5b7e7f484.png" width="800"/>
 
