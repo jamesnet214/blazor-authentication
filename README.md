@@ -23,7 +23,7 @@ Visual Studio를 통해 프로젝트를 생성할 때 기본적인 요소들이 
 
 <br>
 
-🔐 **대표적인 Autho2.0 인증**
+🔐 **대표적인 Auth 인증**
 
 ![](https://img.shields.io/badge/-Google-4285F4?style=for-the-badge&logo=Google&logoColor=white)
 ![](https://img.shields.io/badge/-Apple-000000?style=for-the-badge&logo=Apple&logoColor=white)
