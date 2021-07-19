@@ -102,22 +102,16 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 <br>
 
 ## 데이터베이스 마이그레이션
-Blazor Indivisual 모드는 Authentication 인증 관련 데이터베이스 마이그레이션을 지원합니니다.
+> Blazor Indivisual 모드는 Authentication 인증 관련 데이터베이스 마이그레이션을 지원합니니다.
 
-<br>
-
-### _마이그레이션이란?_
+#### _마이그레이션이란?_
 기능에 필요한 데이터베이스를 해당 Blazor 설치 버전에 맞게 자동으로 생성 또는 변경합니다. Authentication 관련 인증 처리는 데이터베이스가 필수로 필요하기 때문에 반드시 데이터베이스가 먼저 준비되어있어야 합니다.
 
-<br>
-
-### _마이그레이션 시점은 언제이며 어떻게 동작합니까?_
+#### _마이그레이션 시점은 언제이며 어떻게 동작합니까?_
 Authentication 인증을 최초에 성공하면 데이터베이스 연결 유무 및 마이그레이션 버전 정보 확인을 통해 마이그레이션이 시작됩니다. 그러므로 직접 마이그레이션을 할 필요가 없습니다.
 
-<br>
-
-### _마이그레이션 형식_
-마이그레이션은 EntityFramework 형태로 준비되어 있습니다. 그리고 서버 환경에 따라 `MS-SQL`, `SQLite`, `Oracle` 등 엔터티프레임워크를 지원하는 DB를 선택할 수 있습니다.
+#### _마이그레이션 형식_
+마이그레이션은 EntityFramework 형태로 준비되어 있습니다. 그리고 서버 환경에 따라 `MS-SQL`, `SQLite`, `Oracle` 등 [**엔터티프레임워크를 지원하는 DB**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)를 선택할 수 있습니다.
 
 <br>
 
@@ -126,6 +120,7 @@ Authentication 인증을 최초에 성공하면 데이터베이스 연결 유무
 
 ![image](https://user-images.githubusercontent.com/52397976/125908580-649f26f2-7e29-472d-9299-ae030586312d.png)
 
+#### 데이터베이스 테이블 _(.NET6.0 기준)_
 || 테이블명|설명|
 |:---:|:-----|:---|
 |1|__EFMigrationsHistory| 마이그레이션 히스토리 테이블 |
@@ -139,26 +134,24 @@ Authentication 인증을 최초에 성공하면 데이터베이스 연결 유무
 |9|DeviceCodes| |
 |10|PersistedGrants| |
 
-(_.NET6.0 기준_)
-### 데이터베이스
-엔터티 접속에 필요한 DB 연결정보
+#### 데이터베이스 연결정보 추가
 
-#### 1. 데이터베이스 연결정보 추가
-
-EntityFrameworkCore 연결에 사용될 DB 커넥션 정보를 입력합니다.
-파일 위치: **Server -> appsettings.json**
+> 파일 위치: **Server > appsettings.json**
 
 ```json
 "ConnectionStrings": {
   "DefaultConnection": "Data Source=.;Initial Catalog=blazor-db;User Id=sa;Password=!@#$1234"
 },
 ```
-EntityFrameworkCore는 다양한 데이터베이스를 지원합니다. (MS-SQL, SQLite, MySql, Oracle 등) 예제는 MS-SQL을 사용하지만 여러분은 DB 선택에 맞게 추가적으로 NugetPackage를 설치하시기 바랍니다.
+
+<br>
 
 ## OAuth
 OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그룹에서 널리 쓰이는 표준 인증 방식입니다.
 
 > OAuth는 인터넷 사용자들이 비밀번호를 제공하지 않고 다른 웹사이트 상의 자신들의 정보에 대해 웹사이트나 애플리케이션의 접근 권한을 부여할 수 있는 공통적인 수단으로서 사용되는, 접근 위임을 위한 개방형 표준이다. 이 매커니즘은 여러 기업들에 의해 사용되는데, 이를테면 아마존, 구글, 페이스북, 마이크로소프트, 트위터가 있으며 사용자들이 타사 애플리케이션이나 웹사이트의 계정에 관한 정보를 공유할 수 있게 허용한다. [위키백과](https://ko.wikipedia.org/wiki/OAuth)
+
+<br>
 
 ### 구글 OAuth 
 구글은 OAuth2.0 표준 사용자 인증 방식으로 제공하고 있습니다. 자세한 방법은 하단을 참조바랍니다.
