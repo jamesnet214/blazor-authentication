@@ -66,16 +66,17 @@ Blazor를 서비스하기 위한 가장 쉬운 방법은 클라우드 서비스�
 ## 프로젝트 생성
 Blazor 프로젝트를 생성하는 방법입니다.
 
-_Visual Studio_
-- Blazor WebAssembly 프로젝트 선택
-- Indivisual Accounts 옵션 선택
-- Hosted 옵션 선택
+### _Visual Studio_
+1. Blazor WebAssembly 프로젝트 선택
+1. Indivisual Accounts 옵션 선택
+1. Hosted 옵션 선택
+<img src="https://user-images.githubusercontent.com/74305823/126103947-b9e35e7f-3e57-4af2-bb64-8df5b7e7f484.png" width="800"/>
 
-_Visual Studio Code / NET Core CLI_
+### _Visual Studio Code / NET Core CLI_
 ```cli
 dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 ```
-자세한 **dotnet new** 명령어는 [여기](https://docs.microsoft.com/ko-kr/dotnet/core/tools/dotnet-new)를 통해 학습할 수 있습니다.
+> 자세한 **dotnet new** 명령어는 [여기](https://docs.microsoft.com/ko-kr/dotnet/core/tools/dotnet-new)를 통해 학습할 수 있습니다.
 <br>
 
 ## 어셈블리
@@ -154,15 +155,6 @@ EntityFrameworkCore 연결에 사용될 DB 커넥션 정보를 입력합니다.
 ```
 EntityFrameworkCore는 다양한 데이터베이스를 지원합니다. (MS-SQL, SQLite, MySql, Oracle 등) 예제는 MS-SQL을 사용하지만 여러분은 DB 선택에 맞게 추가적으로 NugetPackage를 설치하시기 바랍니다.
 
-엔터티에서 지원하는 DB 목록
-| 데이터베이스 | 어셈블리 (Nuget Package) |
-|:---|:----|
-|MS-SQL|Microsoft.EntityFrameworkCore.SqlServer|
-|SQLite|Microsoft.EntityFrameworkCore.SQLite|
-|[Oracle](https://www.nuget.org/packages/Oracle.EntityFrameworkCore/5.21.1/ReportAbuse)|Oracle.EntityFrameworkCore|
-|[MySql](https://www.nuget.org/packages/MySql.Data.EntityFrameworkCore/8.0.22/ReportAbuse)|MySql.Data.EntityFrameworkCore|
-|Cosmos|Microsoft.EntityFrameworkCore.Cosmos|
-
 ## OAuth
 OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그룹에서 널리 쓰이는 표준 인증 방식입니다.
 
@@ -173,7 +165,7 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 - Kakao
 - Naver
 
-#### 2. 구글 OAuth
+### 구글 OAuth
 구글은 OAuth2.0 표준 사용자 인증 방식으로 제공하고 있습니다. [구글 API](https://console.cloud.google.com) 자세한 방법은 하단을 참조바랍니다.
 
 > OAuth는 인터넷 사용자들이 비밀번호를 제공하지 않고 다른 웹사이트 상의 자신들의 정보에 대해 웹사이트나 애플리케이션의 접근 권한을 부여할 수 있는 공통적인 수단으로서 사용되는, 접근 위임을 위한 개방형 표준이다.[1] 이 매커니즘은 여러 기업들에 의해 사용되는데, 이를테면 아마존,[2] 구글, 페이스북, 마이크로소프트, 트위터가 있으며 사용자들이 타사 애플리케이션이나 웹사이트의 계정에 관한 정보를 공유할 수 있게 허용한다. [위키백과](https://ko.wikipedia.org/wiki/OAuth)
@@ -190,20 +182,11 @@ services.AddAuthentication()
 #JWT 인증
 TBD...
 
-## Project
-
-![image](https://user-images.githubusercontent.com/74305823/125865426-09aaa9ab-17f7-4dd3-a86b-ae748ae5ae27.png)
-
-![image](https://user-images.githubusercontent.com/74305823/125865475-9e38a65c-5156-4d1d-9a4e-8a93c0fea72a.png)
-
-## Identity 스케폴딩 구조 사용을 위한 옵션 체크
-- Invidual 선택
-![image](https://user-images.githubusercontent.com/74305823/125865489-536f9886-1998-4600-9afa-d1596beda955.png)
+<br>
 
 ## 스케폴딩이란?
 - Identity modules
-# Blazor to Google
-# Blazor to GitHub
-> https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/blob/dev/samples/Mvc.Client/Startup.cs
-# Blazor to Facebook
+**`Blazor to Google`**  
+**[`Blazor to GitHub`](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/blob/dev/samples/Mvc.Client/Startup.cs)**  
+**`Blazor to Facebook`**
 
