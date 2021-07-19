@@ -173,13 +173,15 @@ TBD...
 <br>
 
 ## 스케폴딩이란?
-### Identity modules  
-- **`Blazor to Google`**  
-- **[`Blazor to GitHub`](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/blob/dev/samples/Mvc.Client/Startup.cs)**  
-- **`Blazor to Facebook`**
 
 **스케폴드 목록**
 - _LoginPartial
 - Login
 - Logout
+
+### OAuth 2.0 TBD...
+- **`Blazor to Google`**  
+- **[`Blazor to GitHub`](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/blob/dev/samples/Mvc.Client/Startup.cs)**  
+- **`Blazor to Facebook`**
+
 
