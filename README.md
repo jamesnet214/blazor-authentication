@@ -67,9 +67,9 @@ Blazor를 서비스하기 위한 가장 쉬운 방법은 클라우드 서비스�
 Blazor 프로젝트를 생성하는 방법입니다.
 
 ### _Visual Studio_
-1. Blazor WebAssembly 프로젝트 선택
-1. Indivisual Accounts 옵션 선택
-1. Hosted 옵션 선택
+1. **Blazor WebAssembly App** 프로젝트 선택
+1. **Indivisual Accounts** 옵션 선택
+1. **ASP.NET Core Hosted** 옵션 선택
 <img src="https://user-images.githubusercontent.com/74305823/126103947-b9e35e7f-3e57-4af2-bb64-8df5b7e7f484.png" width="800"/>
 
 ### _Visual Studio Code / NET Core CLI_
@@ -83,26 +83,26 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 인증시스템을 구현하기 위해 필요한 **필수** **어셈블리**를 살펴보겠습니다.  
 기본적으로 세팅되어있는 어셈블리 항목들을 살펴보면 Blazor의 인증 구조가 어떻게 제공되고 있는지 파악하는 것에 큰 도움이 됩니다.
 
-### ✔️ 클라이언트
-◻️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly  
-◻️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly.DevServer  
-◻️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly.Authentication  
-◻️ &nbsp; Microsoft.Extensions.Http
+#### ✔️ 클라이언트
+▪️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly  
+▪️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly.DevServer  
+▪️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly.Authentication  
+▪️ &nbsp; Microsoft.Extensions.Http
 
-### ✔️ 서버
-◻️ &nbsp; Microsoft.AspNetCore.Authentication.Google  
-◻️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly.Server  
-◻️ &nbsp; Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore  
-◻️ &nbsp; Microsoft.AspNetCore.Identity.EntityFrameworkCore  
-◻️ &nbsp; Microsoft.AspNetCore.Identity.UI  
-◻️ &nbsp; Microsoft.AspNetCore.ApiAuthorization.IdentityServer  
-◻️ &nbsp; Microsoft.EntityFrameworkCore.SqlServer  
-◻️ &nbsp; Microsoft.EntityFrameworkCore.Tools
+#### ✔️ 서버
+▪️ &nbsp; Microsoft.AspNetCore.Authentication.Google  
+▪️ &nbsp; Microsoft.AspNetCore.Components.WebAssembly.Server  
+▪️ &nbsp; Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore  
+▪️ &nbsp; Microsoft.AspNetCore.Identity.EntityFrameworkCore  
+▪️ &nbsp; Microsoft.AspNetCore.Identity.UI  
+▪️ &nbsp; Microsoft.AspNetCore.ApiAuthorization.IdentityServer  
+▪️ &nbsp; Microsoft.EntityFrameworkCore.SqlServer  
+▪️ &nbsp; Microsoft.EntityFrameworkCore.Tools
 
 <br>
 
 ## 데이터베이스 마이그레이션
-> Blazor Indivisual 모드는 Authentication 인증 관련 데이터베이스 마이그레이션을 지원합니니다.
+> **Blazor Indivisual 모드**는 Authentication 인증 관련 데이터베이스 마이그레이션을 지원합니니다.
 
 #### _마이그레이션이란?_
 기능에 필요한 데이터베이스를 해당 Blazor 설치 버전에 맞게 자동으로 생성 또는 변경합니다. Authentication 관련 인증 처리는 데이터베이스가 필수로 필요하기 때문에 반드시 데이터베이스가 먼저 준비되어있어야 합니다.
