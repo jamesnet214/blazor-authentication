@@ -172,7 +172,8 @@ services.AddAuthentication()
 	o.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
     });
 ```
-
+#JWT 인증
+TBD...
 
 ## Project
 
