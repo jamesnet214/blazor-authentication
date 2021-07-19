@@ -25,6 +25,7 @@ Visual Studio를 통해 프로젝트를 생성할 때 기본적인 요소들이 
 
 🔐 **대표적인 인증**
 
+![](https://img.shields.io/badge/-Apple-000000?style=for-the-badge&logo=Apple&logoColor=white)
 ![](https://img.shields.io/badge/-Google-4285F4?style=for-the-badge&logo=Google&logoColor=white)
 ![](https://img.shields.io/badge/-Github-181717?style=for-the-badge&logo=Github&logoColor=white)
 ![](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white)
