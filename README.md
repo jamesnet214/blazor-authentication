@@ -76,7 +76,7 @@ Blazor 프로젝트를 생성하는 방법입니다.
 ```cli
 dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 ```
-> 자세한 **dotnet new** 명령어는 [여기](https://docs.microsoft.com/ko-kr/dotnet/core/tools/dotnet-new)를 통해 학습할 수 있습니다.
+> ❗ 자세한 **dotnet new** 명령어는 [**여기**](https://docs.microsoft.com/ko-kr/dotnet/core/tools/dotnet-new)를 통해 학습할 수 있습니다.
 <br>
 
 ## 어셈블리
