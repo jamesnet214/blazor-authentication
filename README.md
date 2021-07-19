@@ -179,7 +179,7 @@ TBD...
 - Login
 - Logout
 
-_임시 설명_
+__임시 설명__
 > ASP.NET Core 2.1에는 UI 아티팩트를 라이브러리 및 NuGet 패키지와 공유할 수 있는 Razor UI 클래스 라이브러리 가 도입되었습니다 . UI 조각과 함께 제공되는 첫 번째 공식 패키지 중 하나는 ASP.NET Core Identity입니다. 이 블로그 게시물은 스캐폴딩을 사용하여 ASP.NET Core ID의 기본 보기를 재정의하는 방법을 보여줍니다.
 > [ASP.NET Core ID 스캐폴딩](https://gunnarpeipman.com/aspnet-core-identity-scaffolding/)
 
