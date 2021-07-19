@@ -158,6 +158,13 @@ EntityFrameworkCore는 다양한 데이터베이스를 지원합니다. (MS-SQL,
 ## OAuth2.0 인증
 OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그룹에서 널리 쓰이는 표준 인증 방식입니다.
 
+- Google
+- Facebook
+- Twitter
+- GitHub
+- Kakao
+- Naver
+
 #### 2. 구글 OAuth2.0
 구글은 OAuth2.0 표준 사용자 인증 방식으로 제공하고 있습니다. [구글 API](https://console.cloud.google.com) 자세한 방법은 하단을 참조바랍니다.
 
