@@ -109,22 +109,22 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 
 #### _마이그레이션 시점은 언제이며 어떻게 동작합니까?_
 
-1. 웹앱을 실행해서 마이그레이션 시작하기
-2. 수동으로 마이그레이션 시작하기
+1. 명령어로 마이그레이션 시작하기
+2. 웹앱에서 마이그레이션 시작하기
+
+#### PM Console에서 실행
+PM(패키지매니저) Console에서 `upate-database`를 입력하면 마이그레이션을 시작하게 됩니다.
+```terminal
+PM > update-database
+```
  
- #### 웹앱에서 실행
- 
+ #### 웹앱에서 실행 
 인증 수행이 진행될 때마다 데이터베이스 연결 및 마이그레이션 버전 정보를 확인합니다. 만약 생성된 데이터베이스가 없거나 새로운 버전의 마이그레이션이 필요할 경우에는 아래처럼 버튼이 활성화됩니다.
 
 ![image](https://user-images.githubusercontent.com/52397976/126344512-3db0ecd0-c743-401f-81d5-dfb92d5785ee.png)
 
 버튼을 클릭하면 엔터티를 통해 데이터베이스 마이그레이션 작업이 실행됩니다.
 
-#### PM Console에서 실행
-만약 도중에 에러가 발생한다면 마이그레이션을 수동으로 다시 시도할 수도 있습니다.
-```terminal
-PM > update-database
-```
 
 #### _마이그레이션 형식_
 마이그레이션은 EntityFramework 형태로 준비되어 있습니다. 그리고 서버 환경에 따라 `MS-SQL`, `SQLite`, `Oracle` 등 [**엔터티프레임워크를 지원하는 DB**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)를 선택할 수 있습니다.
