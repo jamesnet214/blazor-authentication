@@ -180,7 +180,8 @@ TBD...
 #### Identity
 Identity 모듈은 웹 인증과 계정관리 부분을 통합으로 제공하는 라이브러리(RCL) 입니다. 그리고 엔터티를 통해 데이터를 관리하기 때문에 엔터티 연결이 제대로 동작해야 합니다.
 
-
+#### 요령
+한번에 모든 모듈을 스케폴딩 하는 것 보다는 수정하고자 하는 부분을 하나 씩 순차적으로 스케폴딩 하는 것이 더욱 더 효율적인 방법입니다.
 
 **스케폴드 목록**
 - _LoginPartial
@@ -192,9 +193,6 @@ __스케폴딩 임시 설명__
 
 > Scaffold Identity in ASP.NET Core projects
 > [MSDN](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-5.0&tabs=visual-studio)
-
-> ASP.NET Core 2.1에는 UI 아티팩트를 라이브러리 및 NuGet 패키지와 공유할 수 있는 Razor UI 클래스 라이브러리 가 도입되었습니다 . UI 조각과 함께 제공되는 첫 번째 공식 패키지 중 하나는 ASP.NET Core Identity입니다. 이 블로그 게시물은 스캐폴딩을 사용하여 ASP.NET Core ID의 기본 보기를 재정의하는 방법을 보여줍니다.
-> [ASP.NET Core ID 스캐폴딩](https://gunnarpeipman.com/aspnet-core-identity-scaffolding/)
 
 
 ### OAuth 2.0 TBD...
