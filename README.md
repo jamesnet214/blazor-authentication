@@ -178,16 +178,55 @@ TBD...
 특정 구현 방식을 라이브러리(RCL) 형태로 제공받아 사용하고 필요한 부분을 스캐폴딩 하여 수정하는 것을 말합니다. 특히 스케폴딩을 통해 생성된 파일은 RCL보다 우선 적용되도록 설계되어 있으므로 재정의에 특화된 구조입니다. 또한 닷넷에서 제안하는 구현 방식을 토대로 학습 또는 확장에 장점을 갖습니다.
 
 #### Identity 모듈
-Identity 모듈은 웹 인증과 계정관리 부분을 통합으로 제공하는 라이브러리(RCL) 입니다. 그리고 엔터티를 통해 데이터를 관리하기 때문에 엔터티 연결이 제대로 동작해야 합니다.
+Identity 모듈은 웹 인증과 계정관리 부분이 통합된 소스코드를 제공하는 라이브러리(RCL) 입니다. Identity 모듈을 사용하면 웹사이트의 인증 계정관리 시스템을 손쉽게 구축할 수 있습니다.
+
+#### Identity 항목들
+
+
+그리고 엔터티를 통해 데이터를 관리하기 때문에 엔터티 연결이 제대로 동작해야 합니다.
 
 #### 스케폴딩 요령
 한번에 모든 모듈을 스케폴딩 하는 것 보다는 수정하고자 하는 부분을 하나 씩 순차적으로 스케폴딩 하는 것이 더욱 더 효율적인 방법입니다.
 
 **스케폴드 목록**
-- _LoginPartial
 - Account
-- Login
-- Logout
+  - StatusMessage
+  - ConfirmEmailChange
+  - ForgetPasswordConfirmation
+  - RegisterConfirmation
+  - ResetPasswordConfirmation
+  - LoginWith2fa
+  - AccessDenied
+  - ExternalLogin
+  - Lockout
+  - LoginWithReccoveryCode
+  - ResendEmailConfirmation
+  - ConfirmEmail
+  - ForgetPassword
+  - Login
+  - Logout
+- Account/Manage
+  - Layout
+  - ChangePassword
+  - DownloadPersonalData
+  - ExtarnalLogins
+  - PersonalData
+  - ShowRecoveryCodes
+  - ManageNav
+  - DeletePersonalData
+  - Email
+  - GenerateRecoveryCodes
+  - ResetAuthenticator
+  - TwoFactorAuthentication
+  - StatusMessage
+  - Disable2fa
+  - EnableAuthenticator
+  - Index
+  - SetPassword
+  - Register
+  - ResetPassword
+- Account/Register
+  - Confirmation
 
 __스케폴딩 임시 설명__
 
