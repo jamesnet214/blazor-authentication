@@ -110,6 +110,8 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 #### _마이그레이션 시점은 언제이며 어떻게 동작합니까?_
 Authentication 인증을 최초에 성공하면 데이터베이스 연결 유무 및 마이그레이션 버전 정보 확인을 통해 마이그레이션이 시작됩니다. 그러므로 직접 마이그레이션을 할 필요가 없습니다.
 
+![image](https://user-images.githubusercontent.com/52397976/126340721-06a54487-1929-41de-b68c-c53d4eef52ca.png)
+
 ![image](https://user-images.githubusercontent.com/52397976/126340548-345601d6-99be-4c2a-8081-21199cebc77e.png)
 
 
