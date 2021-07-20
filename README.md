@@ -118,7 +118,8 @@ Authentication 인증을 최초에 성공하면 데이터베이스 연결 유무
 ## 데이터베이스 인증  관계도
 마이그레이션을 통해 생성된 데이터베이스 테이블 다이어그램입니다.
 
-![image](https://user-images.githubusercontent.com/52397976/125908580-649f26f2-7e29-472d-9299-ae030586312d.png)
+![image](https://user-images.githubusercontent.com/74305823/126245049-35ae709d-7589-4d8d-a3b2-4dad483c69b0.png)
+
 
 #### 데이터베이스 테이블 _(.NET6.0 기준)_
 || 테이블명|설명|
