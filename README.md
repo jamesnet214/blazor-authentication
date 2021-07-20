@@ -108,12 +108,13 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 기능에 필요한 데이터베이스를 해당 Blazor 설치 버전에 맞게 자동으로 생성 또는 변경합니다. Authentication 관련 인증 처리는 데이터베이스가 필수로 필요하기 때문에 반드시 데이터베이스가 먼저 준비되어있어야 합니다.
 
 #### _마이그레이션 시점은 언제이며 어떻게 동작합니까?_
-Authentication 인증을 최초에 성공하면 데이터베이스 연결 유무 및 마이그레이션 버전 정보 확인을 통해 마이그레이션이 시작됩니다. 그러므로 직접 마이그레이션을 할 필요가 없습니다.
+
+
+인증 수행이 진행될 때마다 데이터베이스 연결 및 마이그레이션 버전 정보를 확인합니다. 만약 생성된 데이터베이스가 없거나 새로운 버전의 마이그레이션이 필요할 경우에는 아래처럼 버튼이 활성화됩니다.
 
 ![image](https://user-images.githubusercontent.com/52397976/126340721-06a54487-1929-41de-b68c-c53d4eef52ca.png)
 
-![image](https://user-images.githubusercontent.com/52397976/126340548-345601d6-99be-4c2a-8081-21199cebc77e.png)
-
+버튼을 클릭하면 엔터티를 통해 데이터베이스 마이그레이션 작업이 실행됩니다.
 
 #### _마이그레이션 형식_
 마이그레이션은 EntityFramework 형태로 준비되어 있습니다. 그리고 서버 환경에 따라 `MS-SQL`, `SQLite`, `Oracle` 등 [**엔터티프레임워크를 지원하는 DB**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)를 선택할 수 있습니다.
