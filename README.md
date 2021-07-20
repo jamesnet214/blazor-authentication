@@ -176,6 +176,16 @@ services.AddAuthentication()
 	o.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
     });
 ```
+
+```json
+"Authentication": {
+  "Google": {
+    "ClientId": "xxx-xxx.apps.googleusercontent.com",
+    "ClientSecret": "xxx-xxxxxx"
+  }
+},
+```
+
 👉 [**구글 API**](https://console.cloud.google.com) 
 
 # JWT 인증
