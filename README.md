@@ -107,6 +107,16 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 #### _마이그레이션이란?_
 기능에 필요한 데이터베이스를 해당 Blazor 설치 버전에 맞게 자동으로 생성 또는 변경합니다. Authentication 관련 인증 처리는 데이터베이스가 필수로 필요하기 때문에 반드시 데이터베이스가 먼저 준비되어있어야 합니다.
 
+#### 엔터티 연결정보 추가
+Identity 모듈이 제공하는 데이터베이스 마이그레이션은 엔터티로 되어있기 때문에 이를 시작하기 전에 엔터티 연결정보를 추가해야 합니다.
+> 파일 위치: **Server > appsettings.json**
+
+```json
+"ConnectionStrings": {
+  "DefaultConnection": "Data Source=.;Initial Catalog=blazor-db;User Id=sa;Password=!@#$1234"
+},
+```
+
 #### _마이그레이션 시점은 언제이며 어떻게 동작합니까?_
 
 1. 명령어로 마이그레이션 시작하기
