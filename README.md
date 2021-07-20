@@ -117,7 +117,7 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 
 만약 도중에 에러가 발생한다면 마이그레이션을 수동으로 다시 시도할 수도 있습니다.
 ```terminal
-Update-Database
+PM > Update-Database
 ```
 
 #### _마이그레이션 형식_
