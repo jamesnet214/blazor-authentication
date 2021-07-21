@@ -208,7 +208,7 @@ JWT란 Json Web Token의 약자로써 이것은 웹상에서 서명과 인증 �
 ### Identity 모듈
 Identity 모듈은 웹 인증과 계정관리를 하나로 제공하는 라이브러리(RCL) 입니다. 
 
-<details>
+<details open>
   <summary><b>Account</b></summary>
 
   &nbsp;&nbsp; \- StatusMessage  
@@ -228,7 +228,7 @@ Identity 모듈은 웹 인증과 계정관리를 하나로 제공하는 라이�
   &nbsp;&nbsp; \- Logout
 </details>
 
-<details>
+<details open>
   <summary><b>Account/Manage</b></summary>
 
   &nbsp;&nbsp; \- Layout  
@@ -252,7 +252,7 @@ Identity 모듈은 웹 인증과 계정관리를 하나로 제공하는 라이�
   &nbsp;&nbsp; \- ResetPassword
 </details>
 
-<details>
+<details open>
   <summary><b>Account/Register</b></summary>
 
   &nbsp;&nbsp; \- Confirmation  
