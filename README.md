@@ -159,11 +159,11 @@ PM > update-database
 <br>
 
 ## OAuth
-OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그룹에서 널리 쓰이는 표준 인증 방식입니다.
-
-> OAuth는 인터넷 사용자들이 비밀번호를 제공하지 않고 다른 웹사이트 상의 자신들의 정보에 대해 웹사이트나 애플리케이션의 접근 권한을 부여할 수 있는 공통적인 수단으로서 사용되는, 접근 위임을 위한 개방형 표준이다. 이 매커니즘은 여러 기업들에 의해 사용되는데, 이를테면 아마존, 구글, 페이스북, 마이크로소프트, 트위터가 있으며 사용자들이 타사 애플리케이션이나 웹사이트의 계정에 관한 정보를 공유할 수 있게 허용한다. [위키백과](https://ko.wikipedia.org/wiki/OAuth)
+OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그룹에서 널리 쓰이는 표준 인증 방식으로, 사용자들이 타사 애플리케이션이나 웹사이트의 계정에 관한 정보를 공유할 수 있게 허용합니다.
 
 <br>
+
+> 각 아이콘을 클릭하면 해당 OAuth를 제공하는 페이지로 이동합니다.
 
 ![](https://img.shields.io/badge/-Google-4285F4?style=for-the-badge&logo=Google&logoColor=white)
 ![](https://img.shields.io/badge/-Apple-000000?style=for-the-badge&logo=Apple&logoColor=white)
@@ -172,14 +172,6 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 ![](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)
 ![](https://img.shields.io/badge/-Kakao-FFCD00?style=for-the-badge&logo=KakaoTalk&logoColor=black)
 ![](https://img.shields.io/badge/-Naver-03C75A?style=for-the-badge&logo=Naver&logoColor=white)
-
-- Google
-- Apple
-- [GitHub](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/blob/dev/samples/Mvc.Client/Startup.cs)
-- Facebook
-- Twitter
-- Kakao
-- Naver
 
 ### 구글 OAuth 
 구글은 OAuth2.0 표준 사용자 인증 방식으로 제공하고 있습니다. 자세한 방법은 하단을 참조바랍니다.
@@ -204,6 +196,8 @@ services.AddAuthentication()
 ```
 
 👉 [**구글 API**](https://console.cloud.google.com) 
+
+<br>
 
 ## JWT 인증
 JWT란 Json Web Token의 약자로써 이것은 웹상에서 서명과 인증 암호화 데이터를 만들기 위한 표준 기술입니다. Blazor Identity 모듈에서도 이 표준기술을 로그인 유저 세션으로 사용합니다.
