@@ -165,7 +165,7 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 
 > 각 아이콘을 클릭하면 해당 OAuth를 제공하는 페이지로 이동합니다.
 
-![](https://img.shields.io/badge/-Google-4285F4?style=for-the-badge&logo=Google&logoColor=white)
+[![](https://img.shields.io/badge/-Google-4285F4?style=for-the-badge&logo=Google&logoColor=white)](https://console.cloud.google.com)
 ![](https://img.shields.io/badge/-Apple-000000?style=for-the-badge&logo=Apple&logoColor=white)
 ![](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white)
 [![](https://img.shields.io/badge/-Github-181717?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/blob/dev/samples/Mvc.Client/Startup.cs)
@@ -194,8 +194,6 @@ services.AddAuthentication()
   }
 },
 ```
-
-👉 [**구글 API**](https://console.cloud.google.com) 
 
 <br>
 
