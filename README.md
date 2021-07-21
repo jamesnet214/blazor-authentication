@@ -213,7 +213,7 @@ services.AddAuthentication()
 👉 [**구글 API**](https://console.cloud.google.com) 
 
 # JWT 인증
-TBD...
+JWT란 Json Web Token의 약자로써 이것은 웹상에서 서명과 인증 암호화 데이터를 만들기 위한 표준 기술입니다. Blazor Identity 모듈에서도 이 표준기술을 로그인 유저 세션으로 사용합니다.
 
 <br>
 
