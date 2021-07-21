@@ -104,7 +104,7 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 ## 데이터베이스 마이그레이션
 > **Blazor Individual 모드**는 Authentication 인증 관련 데이터베이스 마이그레이션을 지원합니니다.
 
-#### _마이그레이션이란?_
+### _마이그레이션이란?_
 필요한 데이터베이스를 현재 버전으로 자동 변경되도록 하는 기능입니다. Authentication 관련 인증 처리는 데이터베이스가 필수로 필요하기 때문에 반드시 데이터베이스가 먼저 준비되어있어야 합니다.
 
 > 파일 위치: **Server > appsettings.json**
@@ -115,18 +115,15 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 },
 ```
 
-#### _마이그레이션 시점은 언제이며 어떻게 동작합니까?_
+### _마이그레이션 시점은 언제이며 어떻게 동작합니까?_
 
-1. 명령어로 마이그레이션 시작하기
-2. 웹앱에서 마이그레이션 시작하기
-
-#### PM Console에서 실행
-PM(패키지매니저) Console에서 `upate-database`를 입력하면 마이그레이션을 시작하게 됩니다.
+**1. PM Console에서 실행**  
+PM(패키지매니저) Console에서 `update-database`를 입력하면 마이그레이션을 시작하게 됩니다.
 ```terminal
 PM > update-database
 ```
  
- #### 웹앱에서 실행 
+**2. 웹앱에서 실행**  
 인증 수행이 진행될 때마다 데이터베이스 연결 및 마이그레이션 버전 정보를 확인합니다. 만약 생성된 데이터베이스가 없거나 새로운 버전의 마이그레이션이 필요할 경우에는 아래처럼 버튼이 활성화됩니다.
 
 ![image](https://user-images.githubusercontent.com/52397976/126344512-3db0ecd0-c743-401f-81d5-dfb92d5785ee.png)
@@ -134,7 +131,7 @@ PM > update-database
 버튼을 클릭하면 엔터티를 통해 데이터베이스 마이그레이션 작업이 실행됩니다.
 
 
-#### _마이그레이션 형식_
+### _마이그레이션 형식_
 마이그레이션은 EntityFramework 형태로 준비되어 있습니다. 그리고 서버 환경에 따라 `MS-SQL`, `SQLite`, `Oracle` 등 [**엔터티프레임워크를 지원하는 DB**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)를 선택할 수 있습니다.
 
 <br>
@@ -159,16 +156,6 @@ PM > update-database
 |9|DeviceCodes| |
 |10|PersistedGrants| |
 
-#### 데이터베이스 연결정보 추가
-
-> 파일 위치: **Server > appsettings.json**
-
-```json
-"ConnectionStrings": {
-  "DefaultConnection": "Data Source=.;Initial Catalog=blazor-db;User Id=sa;Password=!@#$1234"
-},
-```
-
 <br>
 
 ## OAuth
@@ -177,6 +164,14 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 > OAuth는 인터넷 사용자들이 비밀번호를 제공하지 않고 다른 웹사이트 상의 자신들의 정보에 대해 웹사이트나 애플리케이션의 접근 권한을 부여할 수 있는 공통적인 수단으로서 사용되는, 접근 위임을 위한 개방형 표준이다. 이 매커니즘은 여러 기업들에 의해 사용되는데, 이를테면 아마존, 구글, 페이스북, 마이크로소프트, 트위터가 있으며 사용자들이 타사 애플리케이션이나 웹사이트의 계정에 관한 정보를 공유할 수 있게 허용한다. [위키백과](https://ko.wikipedia.org/wiki/OAuth)
 
 <br>
+
+![](https://img.shields.io/badge/-Google-4285F4?style=for-the-badge&logo=Google&logoColor=white)
+![](https://img.shields.io/badge/-Apple-000000?style=for-the-badge&logo=Apple&logoColor=white)
+![](https://img.shields.io/badge/-Facebook-1877F2?style=for-the-badge&logo=Facebook&logoColor=white)
+[![](https://img.shields.io/badge/-Github-181717?style=for-the-badge&logo=Github&logoColor=white)](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/blob/dev/samples/Mvc.Client/Startup.cs)
+![](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white)
+![](https://img.shields.io/badge/-Kakao-FFCD00?style=for-the-badge&logo=KakaoTalk&logoColor=black)
+![](https://img.shields.io/badge/-Naver-03C75A?style=for-the-badge&logo=Naver&logoColor=white)
 
 - Google
 - Apple
@@ -210,7 +205,7 @@ services.AddAuthentication()
 
 👉 [**구글 API**](https://console.cloud.google.com) 
 
-# JWT 인증
+## JWT 인증
 JWT란 Json Web Token의 약자로써 이것은 웹상에서 서명과 인증 암호화 데이터를 만들기 위한 표준 기술입니다. Blazor Identity 모듈에서도 이 표준기술을 로그인 유저 세션으로 사용합니다.
 
 <br>
