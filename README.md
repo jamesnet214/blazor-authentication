@@ -203,61 +203,71 @@ JWT란 Json Web Token의 약자로써 이것은 웹상에서 서명과 인증 �
 <br>
 
 ## 스케폴딩
-특정 구현 방식을 라이브러리(RCL) 형태로 제공받아 사용하고 필요한 부분을 스캐폴딩 하여 수정하는 것을 말합니다. 특히 스케폴딩을 통해 생성된 파일은 RCL보다 우선 적용되도록 설계되어 있으므로 재정의에 특화된 구조입니다. 또한 닷넷에서 제안하는 구현 방식을 토대로 학습 또는 확장에 장점을 갖습니다.
+특정 구현 방식을 라이브러리(RCL) 형태로 제공받아 사용하고 필요한 부분을 스캐폴딩 하여 수정하는 것을 말합니다. 특히 스케폴딩을 통해 생성된 파일은 RCL보다 우선 적용되도록 설계되어 있으므로 재정의에 특화된 구조입니다. 또한 닷넷에서 제안하는 구현 방식을 토대로 학습 또는 확장이 용이하다는 장점을 가지고 있습니다.
 
-#### Identity 모듈
+### Identity 모듈
 Identity 모듈은 웹 인증과 계정관리를 하나로 제공하는 라이브러리(RCL) 입니다. 
 
-- Account
-  - StatusMessage
-  - ConfirmEmailChange
-  - ForgetPasswordConfirmation
-  - RegisterConfirmation
-  - ResetPasswordConfirmation
-  - LoginWith2fa
-  - AccessDenied
-  - ExternalLogin
-  - Lockout
-  - LoginWithReccoveryCode
-  - ResendEmailConfirmation
-  - ConfirmEmail
-  - ForgetPassword
-  - Login
-  - Logout
-- Account/Manage
-  - Layout
-  - ChangePassword
-  - DownloadPersonalData
-  - ExtarnalLogins
-  - PersonalData
-  - ShowRecoveryCodes
-  - ManageNav
-  - DeletePersonalData
-  - Email
-  - GenerateRecoveryCodes
-  - ResetAuthenticator
-  - TwoFactorAuthentication
-  - StatusMessage
-  - Disable2fa
-  - EnableAuthenticator
-  - Index
-  - SetPassword
-  - Register
-  - ResetPassword
-- Account/Register
-  - Confirmation
+<details>
+  <summary><b>Account</b></summary>
 
+  &nbsp;&nbsp; \- StatusMessage  
+  &nbsp;&nbsp; \- ConfirmEmailChange  
+  &nbsp;&nbsp; \- ForgetPasswordConfirmation  
+  &nbsp;&nbsp; \- RegisterConfirmation  
+  &nbsp;&nbsp; \- ResetPasswordConfirmation  
+  &nbsp;&nbsp; \- LoginWith2fa  
+  &nbsp;&nbsp; \- AccessDenied  
+  &nbsp;&nbsp; \- ExternalLogin  
+  &nbsp;&nbsp; \- Lockout  
+  &nbsp;&nbsp; \- LoginWithReccoveryCode  
+  &nbsp;&nbsp; \- ResendEmailConfirmation  
+  &nbsp;&nbsp; \- ConfirmEmail  
+  &nbsp;&nbsp; \- ForgetPassword  
+  &nbsp;&nbsp; \- Login  
+  &nbsp;&nbsp; \- Logout
+</details>
 
-#### 스케폴딩 요령
-한번에 모든 모듈을 스케폴딩 하는 것 보다는 수정하고자 하는 부분을 하나 씩 순차적으로 스케폴딩 하는 것이 더욱 더 효율적인 방법입니다.
+<details>
+  <summary><b>Account/Manage</b></summary>
 
-#### 회원가입 플로우
+  &nbsp;&nbsp; \- Layout  
+  &nbsp;&nbsp; \- ChangePassword  
+  &nbsp;&nbsp; \- DownloadPersonalData  
+  &nbsp;&nbsp; \- ExtarnalLogins  
+  &nbsp;&nbsp; \- PersonalData  
+  &nbsp;&nbsp; \- ShowRecoveryCodes  
+  &nbsp;&nbsp; \- ManageNav  
+  &nbsp;&nbsp; \- DeletePersonalData  
+  &nbsp;&nbsp; \- Email  
+  &nbsp;&nbsp; \- GenerateRecoveryCodes  
+  &nbsp;&nbsp; \- ResetAuthenticator  
+  &nbsp;&nbsp; \- TwoFactorAuthentication   
+  &nbsp;&nbsp; \- StatusMessage  
+  &nbsp;&nbsp; \- Disable2fa  
+  &nbsp;&nbsp; \- EnableAuthenticator  
+  &nbsp;&nbsp; \- Index  
+  &nbsp;&nbsp; \- SetPassword  
+  &nbsp;&nbsp; \- Register  
+  &nbsp;&nbsp; \- ResetPassword
+</details>
+
+<details>
+  <summary><b>Account/Register</b></summary>
+
+  &nbsp;&nbsp; \- Confirmation  
+</details>
+
+### 스케폴딩 요령
+한 번에 모든 모듈을 스케폴딩 하는 것 보다는 수정하고자 하는 부분을 하나씩 순차적으로 스케폴딩 하는 것이 더욱 효율적입니다.
+
+### 회원가입 플로우
 
 - 로그인
 - OAuth 인증
 - 가입유무 DB 확인
 - 이메일, OAuth 등록
-- 확일메인 체크
+- 확인 메일 체크
 - 가입 최종 승인
 
 
@@ -266,6 +276,7 @@ __스케폴딩 임시 설명__
 > Scaffold Identity in ASP.NET Core projects
 > [MSDN](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-5.0&tabs=visual-studio)
 
+<br>
 
 ## 인증 방식
 
