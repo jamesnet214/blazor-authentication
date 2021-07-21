@@ -180,6 +180,13 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 
 <br>
 
+- Google
+- [GitHub](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/blob/dev/samples/Mvc.Client/Startup.cs)
+- Facebook
+- Twitter
+- Kakao
+- Naver
+
 ### 구글 OAuth 
 구글은 OAuth2.0 표준 사용자 인증 방식으로 제공하고 있습니다. 자세한 방법은 하단을 참조바랍니다.
 
@@ -265,9 +272,5 @@ __스케폴딩 임시 설명__
 > [MSDN](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-5.0&tabs=visual-studio)
 
 
-### OAuth 2.0 TBD...
-- **`Blazor to Google`**  
-- **[`Blazor to GitHub`](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers/blob/dev/samples/Mvc.Client/Startup.cs)**  
-- **`Blazor to Facebook`**
-
+## 인증 방식
 
