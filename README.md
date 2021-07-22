@@ -1,4 +1,4 @@
-# Blazor-WASM Authentication
+# Blazor 
 이 오픈소스는 **Blazor WebAssembly** 에서 제공하는 Identity 인증 방식과 OAuth에 대해 상세하게 설명하고 소스코드를 제공합니다.
 <br>
 
