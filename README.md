@@ -196,6 +196,8 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 
 [Microsoft.AspNetCore.Authentication.Google](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.Google)
 
+[![NuGet](https://buildstats.info/nuget/Microsoft.AspNetCore.Authentication.Google?includePreReleases=false)](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.Google/ "Download Microsoft.AspNetCore.Authentication.Google from NuGet.org")
+
 ```terminal
 PM> Microsoft.AspNetCore.Authentication.Google
 ```
