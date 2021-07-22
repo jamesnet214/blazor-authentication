@@ -195,8 +195,8 @@ services.AddAuthentication()
 },
 ```
 
-## 카카오 인증
-TBD...
+## 카카오톡 인증
+카카오톡 계정 인증은 [Kakao Developer](https://developers.kakao.com/)에서 생성하고 발급받을 수 있습니다.
 ```csharp
 .AddKakaoTalk(o => {
     o.ClientId = Configuration["Authentication:Kakao:ClientId"];
