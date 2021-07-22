@@ -197,6 +197,12 @@ services.AddAuthentication()
 
 ## 카카오 인증
 TBD...
+```csharp
+.AddKakaoTalk(o => {
+    o.ClientId = Configuration["Authentication:Kakao:ClientId"];
+    o.ClientSecret = Configuration["Authentication:Kakao:ClientSecret"];
+    });
+```
 
 <br>
 
