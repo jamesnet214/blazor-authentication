@@ -206,10 +206,13 @@ pm> AspNet.Security.OAuth.KakaoTalk
 ```
 
 ```csharp
-.AddKakaoTalk(o => {
-    o.ClientId = Configuration["Authentication:Kakao:ClientId"];
-    o.ClientSecret = Configuration["Authentication:Kakao:ClientSecret"];
-    });
+services.AddAuthentication()
+    .AddIdentityServerJwt()
+    .AddKakaoTalk(o => 
+        {
+            o.ClientId = Configuration["Authentication:Kakao:ClientId"];
+            o.ClientSecret = Configuration["Authentication:Kakao:ClientSecret"];
+        });
 ```
 
 <br>
