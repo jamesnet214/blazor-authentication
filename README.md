@@ -173,7 +173,7 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 ![](https://img.shields.io/badge/-Kakao-FFCD00?style=for-the-badge&logo=KakaoTalk&logoColor=black)
 ![](https://img.shields.io/badge/-Naver-03C75A?style=for-the-badge&logo=Naver&logoColor=white)
 
-[More.](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers#Providers)
+[더 많은 공급자 확인하기](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers#Providers)
 
 
 
