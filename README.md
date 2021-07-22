@@ -196,7 +196,7 @@ services.AddAuthentication()
 ```
 
 ## 깃허브 인증
-TBD...
+깃허브 계정 인증(Auth2.0)은 [GitHub Developer](https://docs.github.com/en/developers/apps/building-oauth-apps)에서 발급받을 수 있습니다.
 
 [![NuGet](https://buildstats.info/nuget/AspNet.Security.OAuth.GitHub?includePreReleases=false)](https://www.nuget.org/packages/AspNet.Security.OAuth.GitHub/ "Download AspNet.Security.OAuth.GitHub from NuGet.org")
 ```
@@ -205,7 +205,7 @@ PM> AspNet.Security.OAuth.GitHub
 
 ## 카카오톡 인증
 
-카카오톡 계정 인증은 [Kakao Developer](https://developers.kakao.com/)에서 생성하고 발급 받습니다. 한국은 거의 모든 서비스가 카카오톡과 연동되어지고 있기 때문에 API 사용에 대한 가이드가 잘 준비되어있습니다.
+카카오톡 계정 인증(Auth2.0)은 [Kakao Developer](https://developers.kakao.com/)에서 발급받을 수 있습니다. 한국은 거의 모든 서비스가 카카오톡과 연동되어지고 있기 때문에 API 사용에 대한 가이드가 잘 준비되어있습니다.
 
 [![NuGet](https://buildstats.info/nuget/AspNet.Security.OAuth.KakaoTalk?includePreReleases=false)](https://www.nuget.org/packages/AspNet.Security.OAuth.KakaoTalk/ "Download AspNet.Security.OAuth.KakaoTalk from NuGet.org") 
 
