@@ -196,6 +196,7 @@ services.AddAuthentication()
 ```
 
 ## 카카오톡 인증
+
 카카오톡 계정 인증은 [Kakao Developer](https://developers.kakao.com/)에서 생성하고 발급 받습니다. 한국은 거의 모든 서비스가 카카오톡과 연동되어지고 있기 때문에 API 사용에 대한 가이드가 잘 준비되어있습니다.
 
 [![NuGet](https://buildstats.info/nuget/AspNet.Security.OAuth.KakaoTalk?includePreReleases=false)](https://www.nuget.org/packages/AspNet.Security.OAuth.KakaoTalk/ "Download AspNet.Security.OAuth.KakaoTalk from NuGet.org") 
