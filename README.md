@@ -192,7 +192,7 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 [소스보기](https://github.com/devncore/blazor-authentication)
 
 ## 구글 인증
-깃허브 계정 인증(Auth2.0)은 [GitHub Developer](https://developer.google.com)에서 발급받을 수 있습니다.
+구글 계정 인증(Auth2.0)은 [Google Developer](https://developer.google.com)에서 발급받을 수 있습니다.
 
 [Microsoft.AspNetCore.Authentication.Google](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.Google)
 
