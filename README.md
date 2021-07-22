@@ -201,7 +201,9 @@ services.AddAuthentication()
 ## 카카오톡 어셈블리
 [![NuGet](https://buildstats.info/nuget/AspNet.Security.OAuth.KakaoTalk?includePreReleases=false)](https://www.nuget.org/packages/AspNet.Security.OAuth.KakaoTalk/ "Download AspNet.Security.OAuth.KakaoTalk from NuGet.org") 
 [![MyGet](https://buildstats.info/myget/aspnet-contrib/AspNet.Security.OAuth.KakaoTalk?includePreReleases=true)](https://www.myget.org/feed/aspnet-contrib/package/nuget/AspNet.Security.OAuth.KakaoTalk "Download AspNet.Security.OAuth.KakaoTalk from MyGet.org") 
-[Documentation](https://developers.kakao.com/docs/latest/en/kakaologin/common "KakaoTalk developer documentation") 
+```terminal
+pm> AspNet.Security.OAuth.KakaoTalk
+```
 
 ```
 PM> AspNet.Security.OAuth.KakaoTalk
