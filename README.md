@@ -196,7 +196,7 @@ services.AddAuthentication()
 ```
 
 ## 카카오톡 인증
-카카오톡 계정 인증은 [Kakao Developer](https://developers.kakao.com/)에서 생성하고 발급받을 수 있습니다.
+카카오톡 계정 인증은 [Kakao Developer](https://developers.kakao.com/)에서 생성하고 발급받을 수 있습니다. 대한민국 수많은 서비스가 카카오톡을 통해 연결되어있기 때문에 쉽고 간편하게 API를 제공 받을 수 있습니다.
 ```csharp
 .AddKakaoTalk(o => {
     o.ClientId = Configuration["Authentication:Kakao:ClientId"];
