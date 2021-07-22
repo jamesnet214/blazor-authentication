@@ -186,6 +186,7 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
   }
 },
 ```
+[소스보기](https://github.com/devncore/blazor-authentication)
 
 ## 구글 인증
 구글은 OAuth2.0 표준 사용자 인증 방식으로 제공하고 있습니다. 자세한 방법은 하단을 참조바랍니다.
