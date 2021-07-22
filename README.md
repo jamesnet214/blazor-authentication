@@ -161,7 +161,7 @@ PM > update-database
 ## OAuth
 OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그룹에서 널리 쓰이는 표준 인증 방식으로, 사용자들이 타사 애플리케이션이나 웹사이트의 계정에 관한 정보를 공유할 수 있게 허용합니다.
 
-[Authentication](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers)
+[Providers](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers#Providers)
 <br>
 
 > 각 아이콘을 클릭하면 해당 OAuth를 제공하는 페이지로 이동합니다.
