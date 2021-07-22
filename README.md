@@ -194,10 +194,10 @@ PM> Microsoft.AspNetCore.Authentication.Google
 
 ```csharp
 .AddGoogle(o =>
-{
-    o.ClientId = Configuration["Authentication:Google:ClientId"];
-    o.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
-});
+    {
+        o.ClientId = Configuration["Authentication:Google:ClientId"];
+        o.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
+    });
 ```
 
 ## 깃허브 인증
