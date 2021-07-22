@@ -175,6 +175,16 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 
 [More.](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers#Providers)
 
+## 인증키 샘플
+```json
+"Authentication": {
+  "Google": {
+    "ClientId": "xxx-xxx.apps.googleusercontent.com",
+    "ClientSecret": "xxx-xxxxxx"
+  }
+},
+```
+
 ## 구글 인증
 구글은 OAuth2.0 표준 사용자 인증 방식으로 제공하고 있습니다. 자세한 방법은 하단을 참조바랍니다.
 
@@ -186,15 +196,6 @@ services.AddAuthentication()
 	o.ClientId = Configuration["Authentication:Google:ClientId"];
 	o.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
     });
-```
-
-```json
-"Authentication": {
-  "Google": {
-    "ClientId": "xxx-xxx.apps.googleusercontent.com",
-    "ClientSecret": "xxx-xxxxxx"
-  }
-},
 ```
 
 ## 깃허브 인증
