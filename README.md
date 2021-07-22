@@ -173,7 +173,7 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 ![](https://img.shields.io/badge/-Kakao-FFCD00?style=for-the-badge&logo=KakaoTalk&logoColor=black)
 ![](https://img.shields.io/badge/-Naver-03C75A?style=for-the-badge&logo=Naver&logoColor=white)
 
-### 구글 OAuth 
+## 구글 인증
 구글은 OAuth2.0 표준 사용자 인증 방식으로 제공하고 있습니다. 자세한 방법은 하단을 참조바랍니다.
 
 ```csharp
@@ -194,6 +194,8 @@ services.AddAuthentication()
   }
 },
 ```
+
+#### 카카오 인증
 
 <br>
 
