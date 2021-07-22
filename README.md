@@ -176,6 +176,8 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 [More.](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers#Providers)
 
 ## 인증키 샘플
+공급자(Provider)로부터 발급 받은 인증 정보(`ClientId`, `ClientSecret`)를 작성하는 형식입니다. 
+> 파일 위치: **Server > appsettings.json**
 ```json
 "Authentication": {
   "Google": {
