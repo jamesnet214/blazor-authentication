@@ -177,7 +177,7 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 
 ## 인증키 샘플
 공급자(Provider)로부터 발급 받은 인증 정보(`ClientId`, `ClientSecret`)를 관리하는 형식입니다. 
-> **Server > appsettings.json**
+> Server > **appsettings.json**
 ```json
 "Authentication": {
   "Google": {
