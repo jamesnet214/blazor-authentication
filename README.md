@@ -193,11 +193,11 @@ PM> Microsoft.AspNetCore.Authentication.Google
 ```
 
 ```csharp
-    .AddGoogle(o =>
-    {
-	o.ClientId = Configuration["Authentication:Google:ClientId"];
-	o.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
-    });
+.AddGoogle(o =>
+{
+    o.ClientId = Configuration["Authentication:Google:ClientId"];
+    o.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
+});
 ```
 
 ## 깃허브 인증
@@ -209,11 +209,11 @@ PM> AspNet.Security.OAuth.GitHub
 ```
 
 ```csharp
-    .AddGitHub(o => 
-        {
-            o.ClientId = Configuration["Authentication:GitHub:ClientId"];
-            o.ClientSecret = Configuration["Authentication:GitHub:ClientSecret"];
-        });
+.AddGitHub(o => 
+    {
+        o.ClientId = Configuration["Authentication:GitHub:ClientId"];
+        o.ClientSecret = Configuration["Authentication:GitHub:ClientSecret"];
+    });
 ```
 
 ## 카카오톡 인증
@@ -227,11 +227,11 @@ PM> AspNet.Security.OAuth.KakaoTalk
 ```
 
 ```csharp
-    .AddKakaoTalk(o => 
-        {
-            o.ClientId = Configuration["Authentication:Kakao:ClientId"];
-            o.ClientSecret = Configuration["Authentication:Kakao:ClientSecret"];
-        });
+.AddKakaoTalk(o => 
+    {
+        o.ClientId = Configuration["Authentication:Kakao:ClientId"];
+        o.ClientSecret = Configuration["Authentication:Kakao:ClientSecret"];
+    });
 ```
 
 <br>
