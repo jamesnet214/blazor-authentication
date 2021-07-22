@@ -176,11 +176,12 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 [More.](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers#Providers)
 
 
-[Microsoft.AspNetCore.Authentication.Google](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.Google)
 
 ## 인증키 샘플
 공급자(Provider)로부터 발급 받은 인증 정보(`ClientId`, `ClientSecret`)를 관리하는 형식입니다. 
 > **server > appsettings.json**
+
+[Microsoft.AspNetCore.Authentication.Google](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.Google)
 
 ```terminal
 PM> Microsoft.AspNetCore.Authentication.Google
