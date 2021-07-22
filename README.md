@@ -188,9 +188,11 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 ## 구글 인증
 구글은 OAuth2.0 표준 사용자 인증 방식으로 제공하고 있습니다. 자세한 방법은 하단을 참조바랍니다.
 
+```terminal
+PM> Microsoft.AspNetCore.Authentication.Google
+```
+
 ```csharp
-services.AddAuthentication()
-    .AddIdentityServerJwt()
     .AddGoogle(o =>
     {
 	o.ClientId = Configuration["Authentication:Google:ClientId"];
@@ -207,8 +209,6 @@ PM> AspNet.Security.OAuth.GitHub
 ```
 
 ```csharp
-services.AddAuthentication()
-    .AddIdentityServerJwt()
     .AddGitHub(o => 
         {
             o.ClientId = Configuration["Authentication:GitHub:ClientId"];
@@ -223,12 +223,10 @@ services.AddAuthentication()
 [![NuGet](https://buildstats.info/nuget/AspNet.Security.OAuth.KakaoTalk?includePreReleases=false)](https://www.nuget.org/packages/AspNet.Security.OAuth.KakaoTalk/ "Download AspNet.Security.OAuth.KakaoTalk from NuGet.org") 
 
 ```terminal
-pm> AspNet.Security.OAuth.KakaoTalk
+PM> AspNet.Security.OAuth.KakaoTalk
 ```
 
 ```csharp
-services.AddAuthentication()
-    .AddIdentityServerJwt()
     .AddKakaoTalk(o => 
         {
             o.ClientId = Configuration["Authentication:Kakao:ClientId"];
