@@ -203,6 +203,16 @@ services.AddAuthentication()
 PM> AspNet.Security.OAuth.GitHub
 ```
 
+```csharp
+services.AddAuthentication()
+    .AddIdentityServerJwt()
+    .AddGitHub(o => 
+        {
+            o.ClientId = Configuration["Authentication:GitHub:ClientId"];
+            o.ClientSecret = Configuration["Authentication:GitHub:ClientSecret"];
+        });
+```
+
 ## 카카오톡 인증
 
 카카오톡 계정 인증(Auth2.0)은 [Kakao Developer](https://developers.kakao.com/)에서 발급받을 수 있습니다.
