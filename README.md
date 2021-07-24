@@ -1,5 +1,5 @@
 # Blazor Authentication
-이 레포지터리는 **Blazor WebAssembly**에서 제공하는 Identity (스케폴더) 모듈과 OAuth 인증에 대한 설명과 소스코드를 제공합니다.
+이 Repository는 **Blazor WebAssembly**에서 제공하는 Identity (스케폴더) 모듈과 OAuth 인증에 대한 설명 및 소스코드를 제공합니다.
 <br>
 
 ## Contents
@@ -114,6 +114,7 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
   "DefaultConnection": "Data Source=.;Initial Catalog=blazor-db;User Id=sa;Password=!@#$1234"
 },
 ```
+<br>
 
 ### _마이그레이션 시점은 언제이며 어떻게 동작합니까?_
 
@@ -130,6 +131,7 @@ PM > update-database
 
 버튼을 클릭하면 엔터티를 통해 데이터베이스 마이그레이션 작업이 실행됩니다.
 
+<br>
 
 ### _마이그레이션 형식_
 마이그레이션은 EntityFramework 형태로 준비되어 있습니다. 그리고 서버 환경에 따라 `MS-SQL`, `SQLite`, `Oracle` 등 [**엔터티프레임워크를 지원하는 DB**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)를 선택할 수 있습니다.
@@ -175,9 +177,9 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 
 [더 많은 공급자 확인하기](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers#Providers)
 
+<br>
 
-
-## 인증키 샘플
+### 인증키 샘플
 공급자(Provider)로부터 발급 받은 인증 정보(`ClientId`, `ClientSecret`)를 관리하는 형식입니다. 
 > **server > appsettings.json**
 
@@ -191,7 +193,9 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 ```
 [소스보기](https://github.com/devncore/blazor-authentication)
 
-## 구글 인증
+<br>
+
+### 구글 인증
 구글 계정 인증(Auth2.0)은 [Google Developer](https://developer.google.com)에서 발급받을 수 있습니다.
 
 [![NuGet](https://buildstats.info/nuget/Microsoft.AspNetCore.Authentication.Google?includePreReleases=false)](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.Google/ "Download Microsoft.AspNetCore.Authentication.Google from NuGet.org")
@@ -208,7 +212,9 @@ PM> Microsoft.AspNetCore.Authentication.Google
     });
 ```
 
-## 깃허브 인증
+<br>
+
+### 깃허브 인증
 깃허브 계정 인증(Auth2.0)은 [GitHub Developer](https://docs.github.com/en/developers/apps/building-oauth-apps)에서 발급받을 수 있습니다.
 
 [![NuGet](https://buildstats.info/nuget/AspNet.Security.OAuth.GitHub?includePreReleases=false)](https://www.nuget.org/packages/AspNet.Security.OAuth.GitHub/ "Download AspNet.Security.OAuth.GitHub from NuGet.org")
@@ -224,7 +230,9 @@ PM> AspNet.Security.OAuth.GitHub
     });
 ```
 
-## 카카오톡 인증
+<br>
+
+### 카카오톡 인증
 
 카카오톡 계정 인증(Auth2.0)은 [Kakao Developer](https://developers.kakao.com/)에서 발급받을 수 있습니다.
 
@@ -252,7 +260,9 @@ JWT란 Json Web Token의 약자로써 이것은 웹상에서 서명과 인증 �
 ## 스케폴딩
 특정 구현 방식을 라이브러리(RCL) 형태로 제공받아 사용하고 필요한 부분을 스캐폴딩 하여 수정하는 것을 말합니다. 특히 스케폴딩을 통해 생성된 파일은 RCL보다 우선 적용되도록 설계되어 있으므로 재정의에 특화된 구조입니다. 또한 닷넷에서 제안하는 구현 방식을 토대로 학습 또는 확장이 용이하다는 장점을 가지고 있습니다.
 
-### Identity 모듈
+<br>
+
+## Identity 모듈
 Identity 모듈은 웹 인증과 계정관리를 하나로 제공하는 라이브러리(RCL) 입니다. 
 
 <details open>
