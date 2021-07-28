@@ -20,7 +20,7 @@ Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 자세한 설명�
 
 ## 개요
 Blazor는 프로젝트를 생성할 때 완성된 ID(Identity) 모듈을 제공 여부를 선택할 수 있습니다.  
-**그리고** 이 모듈은 **Microsoft AspNetCore**에서 제공하는 신뢰할 수 있는 구조를 제시합니다.
+**그리고** 이 모듈은 **Microsoft AspNetCore**에서 제공하는 신뢰할 수 있는 구조를 제시하고 있습니다.
 
 #### ID 모듈을 선택하는 이유는...
 - 계정/인증 관련 로직을 **AspNetCore** 팀으로 부터 가이드 받을 수 있다.
