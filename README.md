@@ -6,6 +6,8 @@ Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 자세한 설명�
 
 ## Contents
 - [개요](#개요)
+- [ID (Identity)](#id)
+- [OAuth (Authentication)](#oauth)
 - [개발환경](#개발환경)
 - [프로젝트 생성](#hosted)
 - [필수 어셈블리](#필수-어셈블리)
@@ -19,8 +21,11 @@ Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 자세한 설명�
 ***
 
 ## 개요
+이 Repository는 Blazor WebAssembly를 기준으로 하여 `Hosted` 옵션이 선택된 프로젝트 기반에서 내용이 작성되었습니다.
 
-#### ID (Identity)
+<br>
+
+## ID
 Blazor는 프로젝트를 생성하는 과정에서 **완성된 ID(Identity)** 모듈 사용 여부를 선택할 수 있습니다.  
 **그리고** 이 모듈은 **닷넷** 팀에서 제공하며 신뢰할 수 있는 좋은 구조를 가집니다.
 
@@ -34,10 +39,9 @@ Blazor는 프로젝트를 생성하는 과정에서 **완성된 ID(Identity)** �
 - 독창적인 새 ID 인증 구조를 직접 만드는 경우
 - 필요한 기능만을 구현하고자 하는 경우
 
-
 <br>
 
-#### OAuth (Authentication)
+## OAuth
 유명 공급자(Provider)를 통해 제공되는 OAuth 인증 방식은 어느 덧 인증 방식의 표준으로 자리잡았습니다.
 
 🔐 **대표적인 OAuth 공급자**  
