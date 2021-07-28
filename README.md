@@ -1,6 +1,6 @@
 # Blazor Authentication
 ### Blazor ID 구조와 외부 인증(OAuth) 끝내기
-이 **Repo**는 Blazor WebAssembly에서 제공하는 **Identity** 구조와 **OAuth** 인증에 대한 설명을 제공합니다.
+Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 자세한 설명과 샘플코드를 제공합니다.
 <br>
 
 ## Contents
