@@ -19,6 +19,8 @@ Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 자세한 설명�
 ***
 
 ## 개요
+
+### Identity
 Blazor는 프로젝트를 생성하는 과정에서 **완성된 ID(Identity)** 모듈 사용 여부를 선택할 수 있습니다.  
 **그리고** 이 모듈은 **닷넷** 팀에서 제공하며 신뢰할 수 있는 좋은 구조를 가집니다.
 
@@ -35,11 +37,10 @@ Blazor는 프로젝트를 생성하는 과정에서 **완성된 ID(Identity)** �
 
 <br>
 
-#### OAuth  
+### OAuth  
+유명 공급자(Provider)를 통해 제공되는 OAuth 인증 방식은 어느 덧 인증 방식의 표준으로 자리잡았습니다.
 
-> 유명 공급자(Provider)를 통해 제공되는 OAuth 인증 방식은 어느 덧 인증 방식의 표준이 되었습니다.
-
-🔐 **대표적인 OAuth 인증**  
+🔐 **대표적인 OAuth 공급자**  
 
 ![](https://img.shields.io/badge/-Google-4285F4?style=for-the-badge&logo=Google&logoColor=white)
 ![](https://img.shields.io/badge/-Apple-000000?style=for-the-badge&logo=Apple&logoColor=white)
