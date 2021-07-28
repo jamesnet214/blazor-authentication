@@ -20,7 +20,7 @@ Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 자세한 설명�
 
 ## 개요
 
-#### ID (Scaffolder)
+#### ID (Identity)
 Blazor는 프로젝트를 생성하는 과정에서 **완성된 ID(Identity)** 모듈 사용 여부를 선택할 수 있습니다.  
 **그리고** 이 모듈은 **닷넷** 팀에서 제공하며 신뢰할 수 있는 좋은 구조를 가집니다.
 
