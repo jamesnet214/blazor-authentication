@@ -21,7 +21,9 @@ Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 자세한 설명�
 ***
 
 ## 개요
-이 Repository는 Blazor WebAssembly를 기준으로 하여 `Hosted` 옵션이 선택된 프로젝트 기반에서 내용이 작성되었습니다.
+이 Repository는 Blazor WebAssembly를 기준으로 작성되었습니다. 
+
+구조는 클라이언트와 서버를 분리한 구조입니다. (Hosted) 
 
 <br>
 
