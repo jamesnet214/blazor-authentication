@@ -1,7 +1,7 @@
 # Blazor Authentication
 > 부제: Blazor ID 구조와 외부 인증(OAuth) 끝내기
 
-Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 자세한 설명과 샘플코드를 제공합니다.
+Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 개념적인 설명과 샘플코드를 제공합니다.
 <br>
 
 ## Contents
@@ -23,7 +23,7 @@ Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 자세한 설명�
 ## 개요
 이 레포지토리는 Blazor WebAssembly(WASM) 환경을 기반으로 서버/클라이언트가 분리된 Hosted 구조에서 계정(ID)과 인증(OAuth)를 구현하는 방법에 대한 내용을 다루고 있습니다.
 
-세부적으로는 ID(Identity) 스케폴더, 데이터베이스 마이그레이션, 엔터티프레임워크, 주요 공급자(Provider) 인증 등으로 나누어 소개합니다.
+세부적으로는 ID(Identity) 스케폴더, 데이터베이스 마이그레이션, 엔터티프레임워크, 주요 공급자(Provider) 인증 등으로 나누어 소개하고 있습니다.
 
 <br>
 
