@@ -144,6 +144,10 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 
 > 파일 위치: **Server > appsettings.json**
 
+```
+Data Source=<IP-ADDRESS>;Initial Catalog=<DB-NAME>;User Id=<ACCOUNT>;Password=<PASSWORD>
+```
+
 ```json
 "ConnectionStrings": {
   "DefaultConnection": "Data Source=.;Initial Catalog=blazor-db;User Id=sa;Password=!@#$1234"
