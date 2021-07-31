@@ -299,7 +299,7 @@ PM> install-package Microsoft.AspNetCore.Authentication.Twitter
 ### 애플 인증
 애플 계정 인증(Auth2.0)은 [Apple Developer](https://developer.apple.com)에서 발급받을 수 있습니다.
 
-[![NuGet](https://buildstats.info/nuget/AspNet.Security.OAuth.Apple?includePreReleases=false)](https://www.nuget.org/packages/AspNet.Security.OAuth.Apple/ "Download AspNet.Security.OAuth.Apple from NuGet.org")NuGet.org")
+[![NuGet](https://buildstats.info/nuget/AspNet.Security.OAuth.Apple?includePreReleases=false)](https://www.nuget.org/packages/AspNet.Security.OAuth.Apple/ "Download AspNet.Security.OAuth.Apple from NuGet.org")
 
 ```terminal
 PM> install-package AspNet.Security.OAuth.Apple
