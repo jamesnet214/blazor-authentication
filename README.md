@@ -142,11 +142,13 @@ dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 ### _마이그레이션이란?_
 필요한 데이터베이스를 현재 버전으로 자동 변경되도록 하는 기능입니다. Authentication 관련 인증 처리는 데이터베이스가 필수로 필요하기 때문에 반드시 데이터베이스가 먼저 준비되어있어야 합니다.
 
-> 파일 위치: **Server > appsettings.json**
+> DB 연결정보
 
 ```
 Data Source=<IP-ADDRESS>;Initial Catalog=<DB-NAME>;User Id=<ACCOUNT>;Password=<PASSWORD>
 ```
+
+> 파일 위치: **Server > appsettings.json**
 
 ```json
 "ConnectionStrings": {
