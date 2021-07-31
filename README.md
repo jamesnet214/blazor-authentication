@@ -69,7 +69,7 @@ Blazor는 프로젝트를 생성하는 과정에서 **완성된 ID(Identity)** �
 
 <br>
 
-## 
+## 개발환경
 - Microsoft Windows
 - Apple MacOS
 - Linux
