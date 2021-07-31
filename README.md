@@ -17,6 +17,7 @@ Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 개념적인 설�
 - [인증: 구글](#구글-인증)
 - [인증: 페이스북](#페이스북-인증)
 - [인증: 트위터](#트위터-인증)
+- [인증: 애플](#애플-인증)
 - [인증: 깃허브](#깃허브-인증)
 - [인증: 카카오톡](#카카오톡-인증)
 - [스케폴딩](#스케폴딩)
@@ -289,6 +290,26 @@ PM> install-package Microsoft.AspNetCore.Authentication.Twitter
     {
         o.ClientId = Configuration["Authentication:Twitter:ClientId"];
         o.ClientSecret = Configuration["Authentication:Twitter:ClientSecret"];
+    });
+```
+
+<br />
+
+
+### 애플 인증
+애플 계정 인증(Auth2.0)은 [Apple Developer](https://developer.apple.com)에서 발급받을 수 있습니다.
+
+[![NuGet](https://buildstats.info/nuget/AspNet.Security.OAuth.Apple?includePreReleases=false)](https://www.nuget.org/packages/AspNet.Security.OAuth.Apple/ "Download AspNet.Security.OAuth.Apple from NuGet.org")NuGet.org")
+
+```terminal
+PM> install-package AspNet.Security.OAuth.Apple
+```
+
+```csharp
+.AddGoogle(o =>
+    {
+        o.ClientId = Configuration["Authentication:Apple:ClientId"];
+        o.ClientSecret = Configuration["Authentication:Apple:ClientSecret"];
     });
 ```
 
