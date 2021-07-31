@@ -252,19 +252,19 @@ PM> install-package Microsoft.AspNetCore.Authentication.Google
 <br />
 
 ### 페이스북 인증
-구글 계정 인증(Auth2.0)은 [Google Developer](https://developers.facebook.com)에서 발급받을 수 있습니다.
+구글 계정 인증(Auth2.0)은 [Facebook Developer](https://developers.facebook.com)에서 발급받을 수 있습니다.
 
 [![NuGet](https://buildstats.info/nuget/Microsoft.AspNetCore.Authentication.Google?includePreReleases=false)](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.Google/ "Download Microsoft.AspNetCore.Authentication.Google from NuGet.org")
 
 ```terminal
-PM> install-package Microsoft.AspNetCore.Authentication.Google
+PM> install-package Microsoft.AspNetCore.Authentication.Facebook
 ```
 
 ```csharp
 .AddGoogle(o =>
     {
-        o.ClientId = Configuration["Authentication:Google:ClientId"];
-        o.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
+        o.ClientId = Configuration["Authentication:Facebook:ClientId"];
+        o.ClientSecret = Configuration["Authentication:Facebook:ClientSecret"];
     });
 ```
 
