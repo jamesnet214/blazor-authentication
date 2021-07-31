@@ -164,6 +164,12 @@ PM(패키지매니저) Console에서 `update-database`를 입력하면 마이그
 ```terminal
 PM > update-database
 ```
+
+```
+Build started...
+Build succeeded.
+Done.
+```
  
  <br />
  
