@@ -16,6 +16,7 @@ Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 개념적인 설�
 - [데이터베이스](#데이터베이스)
 - [구글 인증](#구글-인증)
 - [페이스북 인증](#페이스북-인증)
+- [페이스북 인증](#트위터-인증)
 - [깃허브 인증](#깃허브-인증)
 - [카카오톡 인증](#카카오톡-인증)
 - [스케폴딩](#스케폴딩)
@@ -256,7 +257,7 @@ PM> install-package Microsoft.AspNetCore.Authentication.Google
 <br />
 
 ### 페이스북 인증
-구글 계정 인증(Auth2.0)은 [Facebook Developer](https://developers.facebook.com)에서 발급받을 수 있습니다.
+페이스북 계정 인증(Auth2.0)은 [Facebook Developer](https://developers.facebook.com)에서 발급받을 수 있습니다.
 
 [![NuGet](https://buildstats.info/nuget/Microsoft.AspNetCore.Authentication.Facebook?includePreReleases=false)](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.Facebook/ "Download Microsoft.AspNetCore.Authentication.Facebook from NuGet.org")
 
@@ -269,6 +270,25 @@ PM> install-package Microsoft.AspNetCore.Authentication.Facebook
     {
         o.ClientId = Configuration["Authentication:Facebook:ClientId"];
         o.ClientSecret = Configuration["Authentication:Facebook:ClientSecret"];
+    });
+```
+
+<br />
+
+### 트위터 인증
+트위터 계정 인증(Auth2.0)은 [Twitter Developer](https://developer.twitter.com)에서 발급받을 수 있습니다.
+
+[![NuGet](https://buildstats.info/nuget/Microsoft.AspNetCore.Authentication.Twitter?includePreReleases=false)](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.Twitter/ "Download Microsoft.AspNetCore.Authentication.Twitter from NuGet.org")
+
+```terminal
+PM> install-package Microsoft.AspNetCore.Authentication.Twitter
+```
+
+```csharp
+.AddGoogle(o =>
+    {
+        o.ClientId = Configuration["Authentication:Twitter:ClientId"];
+        o.ClientSecret = Configuration["Authentication:Twitter:ClientSecret"];
     });
 ```
 
