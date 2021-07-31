@@ -297,7 +297,7 @@ PM> install-package Microsoft.AspNetCore.Authentication.Twitter
 
 
 ### 애플 인증
-> 애플은 API를 발급받기 위해 먼저 [Apple Developer Program]을 통해 개발자 등록 신청이 절차를 걸쳐야 합니다.
+> 애플은 API를 발급받기 위해 먼저 [Apple Developer Program](https://developer.apple.com/programs/)을 통해 개발자 등록 신청이 절차를 걸쳐야 합니다.
 
 애플 계정 인증(Auth2.0)은 [Apple Developer](https://developer.apple.com)에서 발급받을 수 있습니다.
 
