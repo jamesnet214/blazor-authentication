@@ -238,7 +238,7 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 [![NuGet](https://buildstats.info/nuget/Microsoft.AspNetCore.Authentication.Google?includePreReleases=false)](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.Google/ "Download Microsoft.AspNetCore.Authentication.Google from NuGet.org")
 
 ```terminal
-PM> Microsoft.AspNetCore.Authentication.Google
+PM> install-package Microsoft.AspNetCore.Authentication.Google
 ```
 
 ```csharp
@@ -256,7 +256,7 @@ PM> Microsoft.AspNetCore.Authentication.Google
 
 [![NuGet](https://buildstats.info/nuget/AspNet.Security.OAuth.GitHub?includePreReleases=false)](https://www.nuget.org/packages/AspNet.Security.OAuth.GitHub/ "Download AspNet.Security.OAuth.GitHub from NuGet.org")
 ```
-PM> AspNet.Security.OAuth.GitHub
+PM> install-package AspNet.Security.OAuth.GitHub
 ```
 
 ```csharp
@@ -276,7 +276,7 @@ PM> AspNet.Security.OAuth.GitHub
 [![NuGet](https://buildstats.info/nuget/AspNet.Security.OAuth.KakaoTalk?includePreReleases=false)](https://www.nuget.org/packages/AspNet.Security.OAuth.KakaoTalk/ "Download AspNet.Security.OAuth.KakaoTalk from NuGet.org") 
 
 ```terminal
-PM> AspNet.Security.OAuth.KakaoTalk
+PM> install-package AspNet.Security.OAuth.KakaoTalk
 ```
 
 ```csharp
