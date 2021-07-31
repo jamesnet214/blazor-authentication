@@ -165,6 +165,8 @@ PM(패키지매니저) Console에서 `update-database`를 입력하면 마이그
 PM > update-database
 ```
  
+ <br />
+ 
 **브랴우저에서 실행**  
 인증 수행이 진행될 때마다 데이터베이스 연결 및 마이그레이션 버전 정보를 확인합니다. 만약 생성된 데이터베이스가 없거나 새로운 버전의 마이그레이션이 필요할 경우에는 아래처럼 버튼이 활성화됩니다.
 
@@ -172,7 +174,7 @@ PM > update-database
 
 버튼을 클릭하면 엔터티를 통해 데이터베이스 마이그레이션 작업이 실행됩니다.
 
-<br>
+<br />
 
 ### _마이그레이션 형식_
 마이그레이션은 EntityFramework 형태로 준비되어 있습니다. 그리고 서버 환경에 따라 `MS-SQL`, `SQLite`, `Oracle` 등 [**엔터티프레임워크를 지원하는 DB**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)를 선택할 수 있습니다.
