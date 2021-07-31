@@ -7,8 +7,8 @@ Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 개념적인 설�
 ## Contents
 - [개요](#개요)
 - [ID (Identity)](#id)
-- [개발환경](#개발환경)
 - [OAuth (Authentication)](#oauth)
+- [개발환경](#개발환경)
 - [프로젝트 생성](#hosted)
 - [필수 어셈블리](#필수-어셈블리)
 - [마이그레이션](#마이그레이션)
