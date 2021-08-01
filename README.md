@@ -288,8 +288,8 @@ PM> install-package Microsoft.AspNetCore.Authentication.Twitter
 ```csharp
 .AddGoogle(o =>
     {
-        o.ClientId = Configuration["Authentication:Twitter:ClientId"];
-        o.ClientSecret = Configuration["Authentication:Twitter:ClientSecret"];
+        o.ConsumerKey = Configuration["Authentication:Twitter:ClientId"];
+        o.ConsumerSecret = Configuration["Authentication:Twitter:ClientSecret"];
     });
 ```
 
