@@ -355,6 +355,26 @@ PM> install-package AspNet.Security.OAuth.KakaoTalk
 
 <br>
 
+### 네이버 인증
+
+네이버 계정 인증(Auth2.0)은 [Naver Developers](https://developers.naver.com/apps/#/wizard/register)에서 발급받을 수 있습니다.
+
+[![NuGet](https://buildstats.info/nuget/AspNet.Security.OAuth.KakaoTalk?includePreReleases=false)](https://www.nuget.org/packages/AspNet.Security.OAuth.KakaoTalk/ "Download AspNet.Security.OAuth.KakaoTalk from NuGet.org") 
+
+```terminal
+PM> install-package AspNet.Security.OAuth.Naver
+```
+
+```csharp
+.AddNaver(o => 
+    {
+        o.ClientId = Configuration["Authentication:Naver:ClientId"];
+        o.ClientSecret = Configuration["Authentication:Naver:ClientSecret"];
+    });
+```
+
+<br>
+
 ## JWT 인증
 JWT란 Json Web Token의 약자로써 이것은 웹상에서 서명과 인증 암호화 데이터를 만들기 위한 표준 기술입니다. Blazor Identity 모듈에서도 이 표준기술을 로그인 유저 세션으로 사용합니다.
 
