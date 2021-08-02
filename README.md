@@ -367,10 +367,10 @@ PM> install-package AspNet.Security.OAuth.KakaoTalk
 
 네이버 계정 인증(Auth2.0)은 [Naver Developers](https://developers.naver.com/apps/#/wizard/register)에서 발급받을 수 있습니다.
 
-[![NuGet](https://buildstats.info/nuget/Mcpelee.Owin.Security.Naver?includePreReleases=false)](https://www.nuget.org/packages/Mcpelee.Owin.Security.Naver/ "Download Mcpelee.Owin.Security.Naver from NuGet.org") 
+[![NuGet](https://buildstats.info/nuget/Powerumc.AspNetCore.Authentication.Naver?includePreReleases=false)](https://www.nuget.org/packages/Powerumc.AspNetCore.Authentication.Naver/ "Download Powerumc.AspNetCore.Authentication.Naver from NuGet.org") 
 
 ```terminal
-PM> install-package Mcpelee.Owin.Security.Naver
+PM> install-package Powerumc.AspNetCore.Authentication.Naver
 ```
 
 ```csharp
