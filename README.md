@@ -220,7 +220,14 @@ OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그�
 
 > [OAuth Providers 확인](https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers#Providers)
 
-<br>
+<br />
+
+### 공급자(Provider)별 개발자 계정 만들기
+
+닷넷데브 커뮤니티에서 제공하는 글 참고.
+> https://forum.dotnetdev.kr/t/oauth-provider/1392?u=james.lee
+
+<br />
 
 ### 인증키 샘플
 공급자(Provider)로부터 발급 받은 인증 정보(`ClientId`, `ClientSecret`)를 관리하는 형식입니다. 
