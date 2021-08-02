@@ -20,6 +20,7 @@ Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 개념적인 설�
 - [인증: 애플](#애플-인증)
 - [인증: 깃허브](#깃허브-인증)
 - [인증: 카카오톡](#카카오톡-인증)
+- [인증: 네이버](#네이버-인증)
 - [스케폴딩](#스케폴딩)
 - 스케폴딩 구조 기반 실습
 - 빈 프로젝트 기반 실습
@@ -369,7 +370,7 @@ PM> install-package AspNet.Security.OAuth.KakaoTalk
 [![NuGet](https://buildstats.info/nuget/Mcpelee.Owin.Security.Naver?includePreReleases=false)](https://www.nuget.org/packages/Mcpelee.Owin.Security.Naver/ "Download Mcpelee.Owin.Security.Naver from NuGet.org") 
 
 ```terminal
-PM> install-package AspNet.Security.OAuth.Naver
+PM> install-package Mcpelee.Owin.Security.Naver
 ```
 
 ```csharp
