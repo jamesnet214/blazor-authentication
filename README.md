@@ -50,7 +50,7 @@ Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 개념적인 설�
 #### ❗ 학습 순서에 대한 안내
 빈 프로젝트에서 처음부터 구현하기 위해서는 ID(Identity) 스케폴더 구조가 충분히 숙련된 상태에서 시작하는 것이 좋습니다. 스케폴더 구조가 생각보다 양이 많고 생소한 개념이 많아 진입장벽을 느낄 수 있기 때문에 스케폴더 구조를 더욱 자세하게 익히는 것을 권장합니다.
 
-<br>
+<br />
 
 ## ID
 Blazor는 프로젝트를 생성하는 과정에서 **완성된 ID(Identity)** 모듈 사용 여부를 선택할 수 있습니다.  
@@ -66,7 +66,7 @@ Blazor는 프로젝트를 생성하는 과정에서 **완성된 ID(Identity)** �
 - 독창적인 새 ID 인증 구조를 직접 만드는 경우
 - 필요한 기능만을 구현하고자 하는 경우
 
-<br>
+<br />
 
 ## OAuth
 유명 공급자(Provider)를 통해 제공되는 OAuth 인증 방식은 어느덧 인증 방식의 표준으로 자리잡았습니다.
@@ -81,7 +81,7 @@ Blazor는 프로젝트를 생성하는 과정에서 **완성된 ID(Identity)** �
 ![](https://img.shields.io/badge/-Kakao-FFCD00?style=for-the-badge&logo=KakaoTalk&logoColor=black)
 ![](https://img.shields.io/badge/-Naver-03C75A?style=for-the-badge&logo=Naver&logoColor=white)
 
-<br>
+<br />
 
 ## 개발환경
 - Microsoft Windows
@@ -90,7 +90,7 @@ Blazor는 프로젝트를 생성하는 과정에서 **완성된 ID(Identity)** �
 
 Blazor는 Windows OS를 기반으로 한 닷넷프레임워크 환경에서 탈피한 **닷넷코어** 기반의 **웹앱**입니다. 따라서 더 이상 닷넷프레임워크에만 의존하지 않고 모든 운영체제 환경에서 동일한 소스코드를 쓸 수 있기 때문에 운영체제간 협업 역시 가능합니다. 또한 기존 `ASP.NET`처럼 IIS에 의존하지 않고 손쉽게 독립(Self-contained)적인 배포가 가능합니다.
 
-<br>
+<br />
 
 ## IDE
 - Visual Studio (2022 Preview)
@@ -99,7 +99,7 @@ Blazor는 Windows OS를 기반으로 한 닷넷프레임워크 환경에서 탈�
 
 Visual Studio 뿐만 아니라 Visual Studio Code에서도 Blazor를 개발할 수 있습니다. 따라서 여러분이 익숙한 IDE를 선택하는 것이 좋습니다.
 
-<br>
+<br />
 
 ## 호스팅 
 - Microsoft Azure
@@ -109,7 +109,7 @@ Visual Studio 뿐만 아니라 Visual Studio Code에서도 Blazor를 개발할 �
 
 Blazor를 서비스하기 위한 가장 쉬운 방법은 클라우드 서비스를 이용하는 것입니다. 대표적인 클라우드 서비스로는 `Azure`와 `AWS`가 있습니다. `Azure`의 경우 무료로 웹앱을 서비스할 수 있기 때문에 개발단계에서 아주 유용하게 이용할 수 있습니다.
 
-<br>
+<br />
 
 ## 프로젝트 생성
 Blazor 프로젝트를 생성하는 방법입니다.
@@ -125,7 +125,7 @@ Blazor 프로젝트를 생성하는 방법입니다.
 dotnet new blazorwasm -au Individual -ho -o {APP NAME}
 ```
 > ❗ 자세한 **dotnet new** 명령어는 [**여기**](https://docs.microsoft.com/ko-kr/dotnet/core/tools/dotnet-new)를 통해 학습할 수 있습니다.
-<br>
+<br />
 
 ## 필수 어셈블리
 인증시스템을 구현하기 위해 필요한 **필수** **어셈블리**를 살펴보겠습니다.  
@@ -168,7 +168,7 @@ Data Source=<IP-ADDRESS>;Initial Catalog=<DB-NAME>;User Id=<ACCOUNT>;Password=<P
   "DefaultConnection": "Data Source=.;Initial Catalog=blazor-db;User Id=sa;Password=!@#$1234"
 },
 ```
-<br>
+<br />
 
 ### _마이그레이션 시점은 언제이며 어떻게 동작합니까?_
 
@@ -198,7 +198,7 @@ Done.
 ### _마이그레이션 형식_
 마이그레이션은 EntityFramework 형태로 준비되어 있습니다. 그리고 서버 환경에 따라 `MS-SQL`, `SQLite`, `Oracle` 등 [**엔터티프레임워크를 지원하는 DB**](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)를 선택할 수 있습니다.
 
-<br>
+<br />
 
 ## 데이터베이스 테이블
 마이그레이션을 통해 생성된 데이터베이스 테이블 다이어그램입니다.
@@ -220,7 +220,7 @@ Done.
 |9|DeviceCodes| |
 |10|PersistedGrants| |
 
-<br>
+<br />
 
 ## OAuth
 OAuth 방식은 구글, 페이스북, 트위터, 깃허브 등의 대규모 그룹에서 널리 쓰이는 표준 인증 방식으로, 사용자들이 타사 애플리케이션이나 웹사이트의 계정에 관한 정보를 공유할 수 있게 허용합니다.
