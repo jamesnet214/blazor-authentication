@@ -2,7 +2,13 @@
 > 부제: Blazor ID 구조와 외부 인증(OAuth) 끝내기
 
 Blazor(Wasm) **Identity** 구조와 **OAuth** 인증에 대한 개념적인 설명과 샘플코드를 제공합니다.
-<br>
+
+<br />
+
+## 만든이 소개
+[DevNcore 오픈소스 팀](https://github.com/devncore/devncore)이 리드하고 있습니다.
+
+<br />
 
 ## Contents
 - [개요](#개요)
