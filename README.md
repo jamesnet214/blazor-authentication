@@ -1,15 +1,13 @@
 <div align=center>
   <h2>Blazor Authentication</h2>
   <h4>부제: Blazor ID 구조와 외부 인증(OAuth) 끝내기</h4>
-  <sub>이 레포지토리는 Blazor(Wasm) <b>Identity</b> 구조와 <b>OAuth</b> 인증에 대한 개념적인 설명과 샘플코드를 제공합니다.</sub> 
+  이 레포지토리는 Blazor(Wasm) <b>Identity</b> 구조와 <b>OAuth</b> 인증에 대한 개념적인 설명과 샘플코드를 제공합니다.
   <br/>
   <br/>
  
-  <sub align="center">
-    이 레포지토리는 DevNcore팀이 관리하고 있습니다.
+  이 레포지토리는 DevNcore팀이 관리하고 있습니다.
   <br />
   <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
-  </sub>
  
   <br />
   <br />
