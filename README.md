@@ -292,9 +292,9 @@ PM> install-package Microsoft.AspNetCore.Authentication.Facebook
 ```
 
 ```csharp
-.AddGoogle(o =>
+.AddFacebook(o =>
     {
-        o.ClientId = Configuration["Authentication:Facebook:ClientId"];
+        o.AppId = Configuration["Authentication:Facebook:AppId"];
         o.ClientSecret = Configuration["Authentication:Facebook:ClientSecret"];
     });
 ```
