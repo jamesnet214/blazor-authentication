@@ -311,7 +311,7 @@ PM> install-package Microsoft.AspNetCore.Authentication.Twitter
 ```
 
 ```csharp
-.AddGoogle(o =>
+.AddTwitter(o =>
     {
         o.ConsumerKey = Configuration["Authentication:Twitter:ClientId"];
         o.ConsumerSecret = Configuration["Authentication:Twitter:ClientSecret"];
@@ -333,7 +333,7 @@ PM> install-package AspNet.Security.OAuth.Apple
 ```
 
 ```csharp
-.AddGoogle(o =>
+.AddApple(o =>
     {
         o.ClientId = Configuration["Authentication:Apple:ClientId"];
         o.ClientSecret = Configuration["Authentication:Apple:ClientSecret"];
