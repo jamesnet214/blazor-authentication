@@ -1,8 +1,6 @@
 ## Blazor Authentication
-### 부제: Blazor ID 구조와 외부 인증(OAuth) 끝내기
 
 이 리포지토리는 Blazor(Wasm) <b>Identity</b> 구조와 <b>OAuth</b> 인증에 대한 개념적인 설명과 샘플코드를 제공합니다. <br />
-이 리포지토리는 DevNcore팀이 관리하고 있습니다.  
 
 <a href="https://github.com/devncore/devncore"><strong>더 알아보기 »</strong></a>
  
@@ -11,6 +9,8 @@
 | <a href="https://github.com/devncore/blazor-authentication/stargazers"><img src="https://img.shields.io/github/stars/devncore/blazor-authentication" alt="Github Stars"></a> | <img src="https://img.shields.io/github/license/devncore/blazor-authentication" alt="License"> | <a href="https://github.com/devncore/blazor-authentication/pulse"><img src="https://img.shields.io/github/commit-activity/m/devncore/blazor-authentication" alt="Commits-per-month"></a> |
 
 <br />
+   
+### Blazor ID 구조와 외부 인증(OAuth) 끝내기   
    
 ## Contents
 - [개요](#개요)
